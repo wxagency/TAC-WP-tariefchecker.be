@@ -1,0 +1,529 @@
+# BEGIN WpFastestCache
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js)$">
+    Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTPS} =on
+RewriteCond %{HTTP_HOST} ^www.tariefchecker.be
+# Start WPFC Exclude
+# End WPFC Exclude
+# Start_WPFC_Exclude_Admin_Cookie
+RewriteCond %{HTTP:Cookie} !wordpress_logged_in_[^\=]+\=DimitriO|JeroenSerpieters|tariefadmin|WX\sAgency
+# End_WPFC_Exclude_Admin_Cookie
+RewriteCond %{HTTP_HOST} ^www.tariefchecker.be
+RewriteCond %{HTTP_USER_AGENT} !(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Mediatoolkitbot)
+RewriteCond %{HTTP_USER_AGENT} !(WP\sFastest\sCache\sPreload(\siPhone\sMobile)?\s*Bot)
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{REQUEST_URI} !(\/){2}$
+RewriteCond %{QUERY_STRING} !.+
+RewriteCond %{HTTP:Cookie} !comment_author_
+RewriteCond %{HTTP:Cookie} !safirmobilswitcher=mobil
+RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
+RewriteCond %{HTTP_USER_AGENT} !^.*(\bCrMo\b|CriOS|Android.*Chrome\/[.0-9]*\s(Mobile)?|\bDolfin\b|Opera.*Mini|Opera.*Mobi|Android.*Opera|Mobile.*OPR\/[0-9.]+|Coast\/[0-9.]+|Skyfire|Mobile\sSafari\/[.0-9]*\sEdge|IEMobile|MSIEMobile|fennec|firefox.*maemo|(Mobile|Tablet).*Firefox|Firefox.*Mobile|FxiOS|bolt|teashark|Blazer|Version.*Mobile.*Safari|Safari.*Mobile|MobileSafari|Tizen|UC.*Browser|UCWEB|baiduboxapp|baidubrowser|DiigoBrowser|Puffin|\bMercury\b|Obigo|NF-Browser|NokiaBrowser|OviBrowser|OneBrowser|TwonkyBeamBrowser|SEMC.*Browser|FlyFlow|Minimo|NetFront|Novarra-Vision|MQQBrowser|MicroMessenger|Android.*PaleMoon|Mobile.*PaleMoon|Android|blackberry|\bBB10\b|rim\stablet\sos|PalmOS|avantgo|blazer|elaine|hiptop|palm|plucker|xiino|Symbian|SymbOS|Series60|Series40|SYB-[0-9]+|\bS60\b|Windows\sCE.*(PPC|Smartphone|Mobile|[0-9]{3}x[0-9]{3})|Window\sMobile|Windows\sPhone\s[0-9.]+|WCE;|Windows\sPhone\s10.0|Windows\sPhone\s8.1|Windows\sPhone\s8.0|Windows\sPhone\sOS|XBLWP7|ZuneWP7|Windows\sNT\s6\.[23]\;\sARM\;|\biPhone.*Mobile|\biPod|\biPad|Apple-iPhone7C2|MeeGo|Maemo|J2ME\/|\bMIDP\b|\bCLDC\b|webOS|hpwOS|\bBada\b|BREW).*$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/all/%{HTTP_HOST}/$1/index.html -f [or]
+RewriteCond /home/tariefchecker/public_html/wp-content/cache/all/%{HTTP_HOST}/$1/index.html -f
+RewriteRule ^(.*) "/wp-content/cache/all/%{HTTP_HOST}/$1/index.html" [L]
+##### mobile #####
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTPS} =on
+RewriteCond %{HTTP_HOST} ^www.tariefchecker.be
+# Start WPFC Exclude
+# End WPFC Exclude
+# Start_WPFC_Exclude_Admin_Cookie
+RewriteCond %{HTTP:Cookie} !wordpress_logged_in_[^\=]+\=DimitriO|JeroenSerpieters|tariefadmin|WX\sAgency
+# End_WPFC_Exclude_Admin_Cookie
+RewriteCond %{HTTP_HOST} ^www.tariefchecker.be
+RewriteCond %{HTTP_USER_AGENT} !(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Mediatoolkitbot)
+RewriteCond %{HTTP_USER_AGENT} !(WP\sFastest\sCache\sPreload(\siPhone\sMobile)?\s*Bot)
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{REQUEST_URI} !(\/){2}$
+RewriteCond %{QUERY_STRING} !.+
+RewriteCond %{HTTP:Cookie} !comment_author_
+RewriteCond %{HTTP:Cookie} !safirmobilswitcher=masaustu
+RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
+RewriteCond %{HTTP_USER_AGENT} ^.*(\bCrMo\b|CriOS|Android.*Chrome\/[.0-9]*\s(Mobile)?|\bDolfin\b|Opera.*Mini|Opera.*Mobi|Android.*Opera|Mobile.*OPR\/[0-9.]+|Coast\/[0-9.]+|Skyfire|Mobile\sSafari\/[.0-9]*\sEdge|IEMobile|MSIEMobile|fennec|firefox.*maemo|(Mobile|Tablet).*Firefox|Firefox.*Mobile|FxiOS|bolt|teashark|Blazer|Version.*Mobile.*Safari|Safari.*Mobile|MobileSafari|Tizen|UC.*Browser|UCWEB|baiduboxapp|baidubrowser|DiigoBrowser|Puffin|\bMercury\b|Obigo|NF-Browser|NokiaBrowser|OviBrowser|OneBrowser|TwonkyBeamBrowser|SEMC.*Browser|FlyFlow|Minimo|NetFront|Novarra-Vision|MQQBrowser|MicroMessenger|Android.*PaleMoon|Mobile.*PaleMoon|Android|blackberry|\bBB10\b|rim\stablet\sos|PalmOS|avantgo|blazer|elaine|hiptop|palm|plucker|xiino|Symbian|SymbOS|Series60|Series40|SYB-[0-9]+|\bS60\b|Windows\sCE.*(PPC|Smartphone|Mobile|[0-9]{3}x[0-9]{3})|Window\sMobile|Windows\sPhone\s[0-9.]+|WCE;|Windows\sPhone\s10.0|Windows\sPhone\s8.1|Windows\sPhone\s8.0|Windows\sPhone\sOS|XBLWP7|ZuneWP7|Windows\sNT\s6\.[23]\;\sARM\;|\biPhone.*Mobile|\biPod|\biPad|Apple-iPhone7C2|MeeGo|Maemo|J2ME\/|\bMIDP\b|\bCLDC\b|webOS|hpwOS|\bBada\b|BREW).*$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/wpfc-mobile-cache/%{HTTP_HOST}/$1/index.html -f [or]
+RewriteCond /home/tariefchecker/public_html/wp-content/cache/wpfc-mobile-cache/%{HTTP_HOST}/$1/index.html -f
+RewriteRule ^(.*) "/wp-content/cache/wpfc-mobile-cache/%{HTTP_HOST}/$1/index.html" [L]
+##### mobile #####
+</IfModule>
+<FilesMatch "index\.(html|htm)$">
+AddDefaultCharset UTF-8
+<ifModule mod_headers.c>
+FileETag None
+Header unset ETag
+Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "Mon, 29 Oct 1923 20:30:00 GMT"
+</ifModule>
+</FilesMatch>
+# END WpFastestCache
+# BEGIN GzipWpFastestCache
+<IfModule mod_deflate.c>
+AddType x-font/woff .woff
+AddType x-font/ttf .ttf
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE x-font/ttf
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE font/opentype font/ttf font/eot font/otf
+</IfModule>
+# END GzipWpFastestCache
+# BEGIN LBCWpFastestCache
+<FilesMatch "\.(webm|ogg|mp4|ico|pdf|flv|jpg|jpeg|png|gif|webp|js|css|swf|x-html|css|xml|js|woff|woff2|otf|ttf|svg|eot)(\.gz)?$">
+<IfModule mod_expires.c>
+AddType application/font-woff2 .woff2
+AddType application/x-font-opentype .otf
+ExpiresActive On
+ExpiresDefault A0
+ExpiresByType video/webm A10368000
+ExpiresByType video/ogg A10368000
+ExpiresByType video/mp4 A10368000
+ExpiresByType image/webp A10368000
+ExpiresByType image/gif A10368000
+ExpiresByType image/png A10368000
+ExpiresByType image/jpg A10368000
+ExpiresByType image/jpeg A10368000
+ExpiresByType image/ico A10368000
+ExpiresByType image/svg+xml A10368000
+ExpiresByType text/css A10368000
+ExpiresByType text/javascript A10368000
+ExpiresByType application/javascript A10368000
+ExpiresByType application/x-javascript A10368000
+ExpiresByType application/font-woff2 A10368000
+ExpiresByType application/x-font-opentype A10368000
+ExpiresByType application/x-font-truetype A10368000
+</IfModule>
+<IfModule mod_headers.c>
+Header set Expires "max-age=A10368000, public"
+Header unset ETag
+Header set Connection keep-alive
+FileETag None
+</IfModule>
+</FilesMatch>
+# END LBCWpFastestCache
+
+
+
+
+# BEGIN YOAST REDIRECTS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Redirect 301 "/energie/energie/artikels" "/energie/artikels"
+Redirect 301 "/faq-veelgestelde-vragen" "/energie/artikels/faq-veelgestelde-vragen"
+Redirect 301 "/goedkoopste-energie/tariefkaarten/2017" "/goedkoopste-energie/tariefkaarten/2017-2"
+Redirect 301 "/goedkoopste-energie" "/energie"
+Redirect 301 "/de-belgische-energieleveranciers" "/energie/de-belgische-energieleveranciers"
+Redirect 301 "/vergelijk-alle-energieleveranciers-in-de-regio-antwerpen" "/energie/vergelijk-alle-energieleveranciers-in-de-regio-antwerpen"
+Redirect 301 "/goedkoopste-energieleverancier-vergelijken-regio-leuven-mechelen-tienen-en-de-vlaamse-rand" "/energie/goedkoopste-energieleverancier-vergelijken-regio-leuven-mechelen-tienen-en-de-vlaamse-rand"
+Redirect 301 "/energie/artikels/faq-veelgestelde-vragen" "/energie/faq"
+Redirect 301 "/energieleveranciers-vergelijken-voor-professionelen" "/energie/energieleveranciers-vergelijken-voor-professionelen"
+Redirect 301 "/energie/goedkoopste-energieleveranciers" "/energie/goedkoopste-gas-elektriciteit"
+Redirect 301 "/wie-levert-de-goedkoopste-elektriciteit-in-belgie" "/energie/wie-levert-de-goedkoopste-elektriciteit-in-belgie"
+Redirect 301 "/laagste-prijs-garantie" "/energie/laagste-prijs-garantie"
+Redirect 301 "/2018-gas-elektriciteit" "/2018-gaz-electricite"
+Redirect 301 "/fournisseurs-energie-belgique/edf-luminus-2" "/fournisseurs-energie-belgique/edf-luminus"
+Redirect 301 "/energie/energieleveranciers-belgie/edf-luminus-2" "/energie/energieleveranciers-belgie/engie-electrabel"
+Redirect 301 "/trouver-l-energie-la-moins-chere-a-bruxelles" "/tarif-energie-moins-cher"
+Redirect 301 "/cartes-tarifaires-des-fournisseurs-d-energie-belges-veriftarif" "/cartes-tarifaires"
+Redirect 301 "/artikels/actualiteit/concurrentie-in-energiesector-neemt-af" "/artikels/actualiteit/concurrentie-energiesector-neemt-af"
+Redirect 301 "/artikels/actualiteit/energiekosten-maken-belgie-minder-aantrekkelijk-voor-bedrijven" "/artikels/actualiteit/energiekosten-maken-belgie-minder-aantrekkelijk-bedrijven"
+Redirect 301 "/artikels/actualiteit/verhogen-zonnepanelen-uw-elektriciteitsfactuur-vanaf-2019" "/artikels/actualiteit/zonnepanelen-capaciteitstarief-elektriciteitsfactuur"
+Redirect 301 "/faq/hoe-kan-ik-mijn-energieverbruik-kennen" "/faq/hoe-energieverbruik-kennen"
+Redirect 301 "/faq/welke-metertypes-bestaan-er-en-hoe-herken-je-ze" "/faq/metertypes"
+Redirect 301 "/artikels/actualiteit/kijk-uit-met-huis-aan-huisverkopers-van-energie" "/artikels/actualiteit/kijk-uit-huis-aan-huisverkopers-energie"
+Redirect 301 "/artikels/actualiteit/bevolking-belgisch-klimaatplan" "/artikels/actualiteit/bevraging-klimaatplan-belgie"
+Redirect 301 "/artikels/actualiteit/installeer-thuisbatterij-premie-3-200" "/artikels/actualiteit/premie-thuisbatterij"
+Redirect 301 "/artikels/actualiteit/denen-duitsers-betalen-meer-elektriciteit" "/artikels/actualiteit/belgen-betalen-te-veel-voor-elektriciteit"
+Redirect 301 "/artikels/actualiteit/deur-aan-deur-verkoop-reputatie" "/artikels/actualiteit/deur-aan-deur-verkoop-elektriciteit"
+Redirect 301 "/artikels/energie-besparen/5-energievreters-in-je-woning" "/artikels/energie-besparen/tips-besparen-energieverbruik"
+Redirect 301 "/nieuws/opbrengst-zonnedelen-niet-te-zien-op-energiefactuur" "/nieuws/opbrengst-zonnedelen-energiefactuur"
+Redirect 301 "/artikels/actualiteit/concurrentie-energiesector-neemt-af" "/artikels/actualiteit/concurrentie-energiesector"
+Redirect 301 "/artikels/actualiteit/gezinnen-bedrijven-investeren-zonne-energie" "/artikels/actualiteit/zonneenergie-zonnekaart"
+Redirect 301 "/artikels/actualiteit/gezinnen-switchen-van-energieleverancier" "/artikels/actualiteit/switchen-energieleverancier"
+Redirect 301 "/artikels/actualiteit/zonnepanelen-goede-investering" "/artikels/actualiteit/investeren-zonnepanelen"
+Redirect 301 "/artikels/belgie-scoort-slecht-energie" "/artikels/belgie-scoort-slecht-hernieuwbare-energie"
+Redirect 301 "/artikels/actualiteit/belgen-betalen-meer-voor-elektriciteit-dan-buurlanden" "/artikels/actualiteit/elektriciteit-duurder-belgie-dan-buurlanden"
+Redirect 301 "/artikels/actualiteit/recordaantal-gezinnen-bedrijven-stapte-naar-andere-energieleverancier" "/artikels/actualiteit/energiekost-overstappen"
+Redirect 301 "/artikels/energie-in-uit-het-buitenland" "/artikels/energie-uit-het-buitenland"
+Redirect 301 "/artikels/actualiteit/2019-wat-verandert-er-op-het-vlak-van-energie" "/artikels/actualiteit/2019-veranderingen-energie"
+Redirect 301 "/artikels/actualiteit/waarom-je-woonplaats-een-impact-heeft-op-energiefactuur" "/artikels/actualiteit/woonplaats-impact-energiefactuur"
+Redirect 301 "/artikels/actualiteit/de-resultaten-van-de-nieuwe-markmonitor-2018-zijn-bekend" "/artikels/actualiteit/marktmonitor-2018"
+Redirect 301 "/artikels/groepsaankopen-grote-verschil-niet" "/artikels/groepsaankoop-niet-altijd-voordeliger"
+Redirect 301 "/artikels/tools-helpen-besparen-energiefactuur" "/artikels/tools-besparen-energiefactuur"
+Redirect 301 "/artikels/actualiteit/houd-rekening-met-stijgende-energieprijzen-de-komende-jaren" "/artikels/actualiteit/stijgende-energieprijzen"
+Redirect 301 "/artikels/slim-het-najaar-in" "/artikels/energie-besparen-najaar"
+Redirect 301 "/artikels/haal-rendement-zonnepanelen" "/artikels/rendement-zonnepanelen"
+Redirect 301 "/artikels/actualiteit/norther-zorgt-voor-elektriciteit-voor-400-000-gezinnen" "/artikels/actualiteit/norther-windmolenpark-zorgt-voor-elektriciteit-voor-400-000-gezinnen"
+Redirect 301 "/artikels/actualiteit/energiekosten-maken-belgie-minder-aantrekkelijk-bedrijven" "/artikels/actualiteit/energiekost-belgie"
+Redirect 301 "/artikels/actualiteit/vlaanderen-op-schema-voor-productie-groene-stroom" "/artikels/actualiteit/vlaanderen-produceert-meer-groene-stroom"
+Redirect 301 "/artikels/actualiteit/elektriciteit-in-belgie-peperduur-in-vergelijking-met-buurlanden" "/artikels/actualiteit/kostprijs-energie-hoog"
+Redirect 301 "/artikels/actualiteit/binnenkort-dubbel-zoveel-zonne-en-windenergie" "/artikels/actualiteit/meer-wind-en-zonneenergie"
+Redirect 301 "/artikels/actualiteit/korting-op-de-federale-bijdrage-elektriciteit-in-2018-en-2019" "/artikels/actualiteit/korting-federale-elektriciteitsbijdrage"
+Redirect 301 "/artikels/actualiteit/consumentenakkoord-energie-door-leveranciers-getekend" "/artikels/actualiteit/consumentenakkoord-energie-getekend"
+Redirect 301 "/faq/hoe-verander-ik-van-energieleverancier-in-2-stappen" "/faq/veranderen-energieleverancier"
+Redirect 301 "/artikels/actualiteit/engie-electrabel-active-en-boxx-objectief-beoordeeld" "/artikels/actualiteit/engie-electrabel-active-boxx"
+Redirect 301 "/faq/groepsaankopen-gas-en-elektriciteit-doen-of-niet-doen" "/faq/groepsaankopen-gas-en-elektriciteit"
+Redirect 301 "/artikels/dossiers-uit-de-energiesector/betekent-een-lage-epc-waarde-een-lage-energiefactuur" "/artikels/dossiers-uit-de-energiesector/epc-energiefactuur"
+Redirect 301 "/faq/het-epc-in-een-notendop" "/faq/epc"
+Redirect 301 "/faq/energiefacturen-alles-over-voorschotten-en-afrekeningen" "/faq/energiefactuur-voorschotten-afrekening"
+Redirect 301 "/artikels/actualiteit/groepsaankoop-antwerpen-veel-duurder-dan-standaard-aanbiedingen" "/artikels/actualiteit/groepsaankoop-antwerpen-veel-duurder"
+Redirect 301 "/energie/wie-levert-de-goedkoopste-elektriciteit-in-belgie" "/energie/goedkoopste-elektriciteit-3"
+Redirect 301 "/artikels/actualiteit/aanvullende-netkosten-voor-prosumenten-zullen-gemiddeld-160-a-350-euro-bedragen" "/artikels/actualiteit/capaciteitstarief-prosumenten"
+Redirect 301 "/artikels/actualiteit/energie-ook-de-voorbije-6-maand-weer-duurder" "/artikels/actualiteit/energiefactuur-duurder"
+Redirect 301 "/artikels/actualiteit/hernieuwbare-energie-schept-banen-consumenten-nemen-het-heft-in-handen" "/artikels/actualiteit/hernieuwbare-energie-banen"
+Redirect 301 "/energie/energieleveranciers-vergelijken-voor-professionelen" "/energie/professionele-afnemers"
+Redirect 301 "/artikels/energie-besparen/energie-besparen-tijdens-de-zomer-regel-je-ketel-bij" "/artikels/energie-besparen/energie-besparen"
+Redirect 301 "/artikels/actualiteit/alles-wat-je-moet-weten-over-groene-stroom" "/artikels/actualiteit/groene-stroom"
+Redirect 301 "/artikels/actualiteit/energie-vorig-jaar-weer-68-euro-duurder" "/artikels/actualiteit/energiefactuur-duurder-2"
+Redirect 301 "/artikels/actualiteit/duurzame-chinese-energie-voor-europa" "/artikels/actualiteit/chinese-energie"
+Redirect 301 "/artikels/energie-besparen/de-ergste-koude-is-voorbij-maar-anticiperen-is-nodig" "/artikels/energie-besparen/winterprik"
+Redirect 301 "/artikels/actualiteit/328-energieverslindende-bedrijven-besparen-meer-dan-het-verbruik-van-150-000-gezinnen" "/artikels/actualiteit/energieverslindende-bedrijven"
+Redirect 301 "/energie/energieleveranciers-belgie/eni" "/energie/energieleveranciers-belgie/eni-nuon"
+Redirect 301 "/partners-d1" "/partners"
+Redirect 301 "/comparer-rapidement-et-simplement-les-fournisseurs-d-energie-en-belgique" "/energie/comparer-rapidement-et-simplement-les-fournisseurs-d-energie-en-belgique"
+Redirect 301 "/il-ne-vous-faut-pas-grand-chose-pour-comparer-correctement-et-completement-les-fournisseurs-d-energie" "/energie/il-ne-vous-faut-pas-grand-chose-pour-comparer-correctement-et-completement-les-fournisseurs-d-energie"
+Redirect 301 "/le-meilleur-comparateur-de-fournisseurs-d-energie-en-belgique" "/energie/le-meilleur-comparateur-de-fournisseurs-d-energie-en-belgique"
+Redirect 301 "/optimiser-les-tarifs-d-energie-pour-les-professionnels" "/energie/optimiser-les-tarifs-d-energie-pour-les-professionnels"
+Redirect 301 "/tarif-energie-moins-cher" "/energie/tarif-energie-moins-cher"
+Redirect 301 "/suivi-personnalise-base-sur-votre-profil-de-consommation-en-energie" "/energie/suivi-personnalise-base-sur-votre-profil-de-consommation-en-energie"
+Redirect 301 "/veriftarif-un-comparateur-de-fournisseurs-d-energie-gratuit-simple-et-independant" "/energie/veriftarif-un-comparateur-de-fournisseurs-d-energie-gratuit-simple-et-independant"
+Redirect 301 "/energie/de-belgische-energieleveranciers" "/energie/energieleveranciers-belgie"
+Redirect 301 "/energie/energieleveranciers-vergelijken-voor-professionele-afnemers" "/energie/professionels"
+Redirect 301 "/energie/professionels" "/energie/professionnels"
+Redirect 301 "/energie/optimiser-les-tarifs-d-energie-pour-les-professionnels" "/energie/professionnels"
+Redirect 301 "/energie/tariefkaarten/2018-gas-elektriciteit" "/energie/tariefkaarten/2019-gas-elektriciteit"
+Redirect 301 "/energie/cartes-tarifaires/2018-gaz-electricite" "/energie/cartes-tarifaires/2019-gaz-electricite"
+Redirect 301 "/win-for-life" "/energie/win-for-life"
+Redirect 301 "/veriftarif-est-le-win-for-life-de-votre-facture-energetique" "/energie/veriftarif-est-le-win-for-life-de-votre-facture-energetique"
+Redirect 301 "/tariefchecker-is-jouw-win-for-life" "/energie/win-for-life"
+Redirect 301 "/suivi-personalise" "/energie/suivi-personalise"
+Redirect 301 "/energie/suivi-personnalise-base-sur-votre-profil-de-consommation-en-energie" "/energie/suivi-personnalise"
+Redirect 301 "/artikels/actualiteit/teleurgesteld-door-de-overname-van-lampiris-door-total-dit-zijn-jouw-alternatieven" "/artikels/actualiteit/overname-lampiris-total-alternatieven"
+Redirect 301 "/energie/veel-heb-je-niet-nodig-om-volledig-en-correct-energieleveranciers-te-vergelijken" "/energie/energieleveranciers-volledig-correct-vergelijken"
+Redirect 301 "/krijg-persoonlijke-opvolging-en-bescherm-je-voor-altijd-van-dure-energieprijzen" "/persoonlijke-opvolging-energieprijzen"
+Redirect 301 "/faq/waarom-krijg-ik-een-hoge-afrekening-op-mijn-energiefactuur" "/faq/waarom-hoge-afrekening-energiefactuur"
+Redirect 301 "/energie/tariefkaarten1" "/energie/tariefkaarten"
+</IfModule>
+# END YOAST REDIRECTS
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^veriftarif.be [NC]
+RewriteRule ^(.*)$ http://www.veriftarif.be/$1 [L,R=301]
+
+
+Redirect 301 /energie/faq/lijst-distributienetbeheerder-postcode https://www.tariefchecker.be/faq/lijst-distributienetbeheerder-per-postcode
+Redirect 301 /energie/faq/verdeling-kosten-op-een-energiefactuur-gaselektriciteit-netkosten-en-taksen https://www.tariefchecker.be/faq/verdeling-kosten-op-een-energiefactuur-gas-elektriciteit-netkosten-en-taksen
+Redirect 301 /energie/artikels/faq-meest-gestelde-vragen/waarmee-kan-ik-best-mijn-simulatie-vergelijken-afrekening https://www.tariefchecker.be/faq/hoe-kan-ik-best-mijn-besparing-berekenen
+Redirect 301 /energie/faq/groepsaankopen-gas-en-elektriciteit-doen-niet-doen https://www.tariefchecker.be/faq/groepsaankopen-gas-en-elektriciteit
+Redirect 301 /energievergelijker/gas_elektriciteit_energieleveranciers_maandelijks_overzicht_nl/ https://www.tariefchecker.be/goedkoopste-gas-elektriciteit
+Redirect 301 /energie/goedkoopste-energieleverancier-regio-antwerpen https://www.tariefchecker.be/energie/vergelijk-alle-energieleveranciers-in-de-regio-antwerpen
+Redirect 301 /energie/goedkoopste-elektriciteitsleveranciers-vergelijken-vlaanderen https://www.tariefchecker.be/energie/goedkoopste-elektriciteit
+Redirect 301 /energievergelijker/elektriciteit_energieleveranciers_maandelijks_overzicht_nl/ https://www.tariefchecker.be/goedkoopste-gas-elektriciteit
+Redirect 301 /energie/goedkoopste-energieleveranciers-gas-elektriciteit-vergelijken-vlaanderen https://www.tariefchecker.be/goedkoopste-gas-elektriciteit
+Redirect 301 /energie/goedkoopste-elektriciteitsleveranciers-vergelijken-vlaanderen-mei-2015 https://www.tariefchecker.be/energie/goedkoopste-elektriciteit
+Redirect 301 /auteur/dimitri-o https://www.tariefchecker.be/category/artikels
+Redirect 301 /energie/contactformulier-voor-professionelen https://www.tariefchecker.be/contact
+Redirect 301 /winforlife https://www.tariefchecker.be/energie/win-for-life
+Redirect 301 /energie/artikels/actualiteit/energieleveranciers-zien-steeds-meer-klanten-de-problemen-komen https://www.tariefchecker.be/artikels/actualiteit/energieleveranciers-zien-steeds-meer-klanten-in-de-problemen-komen
+Redirect 301 /energie/artikels/actualiteit/energy-people-draag-activiteiten-over-aan-mega https://www.tariefchecker.be/artikels/actualiteit/energy-people-activiteiten-mega
+Redirect 301 /energie/artikels/actualiteit/engie-electrabel-active-en-boxx-objectief-beoordeeld https://www.tariefchecker.be/artikels/actualiteit/engie-electrabel-active-boxx
+Redirect 301 /energie/artikels/actualiteit/enkel-denen-en-duitsers-betalen-meer-voor-elektriciteit https://www.tariefchecker.be/artikels/actualiteit/belgen-betalen-te-veel-voor-elektriciteit
+Redirect 301 /energie/artikels/faq-meest-gestelde-vragen/geen-verbrekingsvergoedingen-meer-voor-particulieren-en-kmos https://www.tariefchecker.be/faq/geen-verbrekingsvergoedingen-meer-voor-particulieren-en-kmo-s
+Redirect 301 /energie/artikels/actualiteit/hoeveel-energie-halen-we-nu-al-uit-zon-en-wind https://www.tariefchecker.be/artikels/actualiteit/hoeveel-energie-halen-we-nu-al-uit-zon-en-wind
+Redirect 301 /algemeen/artikels/energie-besparen/gezellig-en-slim-het-najaar https://www.tariefchecker.be/artikels/actualiteit/energie-besparen-najaar
+Redirect 301 /artikels/actualiteit/gezinnen-beseffen-dat-switchen-van-energieleverancier-loont https://www.tariefchecker.be/artikels/actualiteit/switchen-energieleverancier
+Redirect 301 /energie/artikels/actualiteit/gezinnen-en-bedrijven-investeren-meer-zonne-energie https://www.tariefchecker.be/artikels/actualiteit/zonneenergie-zonnekaart
+Redirect 301 /energie/artikels/actualiteit/groepsaankoop-antwerpen-veel-duurder-dan-standaard-aanbiedingen https://www.tariefchecker.be/artikels/actualiteit/groepsaankoop-antwerpen-veel-duurder
+Redirect 301 /energie/artikels/actualiteit/groepsaankoop-energie-antwerpen-niet-de-goedkoopste https://www.tariefchecker.be/artikels/actualiteit/groepsaankoop-energie-provincie-antwerpen-is-niet-de-goedkoopste
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/groepsaankopen-gas-en-elektriciteit-doen-niet-doen https://www.tariefchecker.be/faq/groepsaankopen-gas-en-elektriciteit
+Redirect 301 /energie/artikels/actualiteit/schone-technologieen-lopen-hopeloos-achter https://www.tariefchecker.be/artikels/actualiteit/schone-technologieen-lopen-hopeloos-achter
+Redirect 301 /energie/artikels/actualiteit/vlaanderen-koopt-een-massa-groenestroom-en-warmtekrachtcertificaten-op https://www.tariefchecker.be/artikels/actualiteit/vlaanderen-koopt-een-massa-groenestroom-en-warmtekrachtcertificaten-op
+Redirect 301 /energie/artikels/actualiteit/groepsaankopen-maken-het-grote-verschil-niet https://www.tariefchecker.be/artikels/actualiteit/groepsaankoop-niet-altijd-voordeliger
+Redirect 301 /energie/artikels/actualiteit/haal-je-nog-rendement-uit-je-zonnepanelen https://www.tariefchecker.be/artikels/actualiteit/rendement-zonnepanelen
+Redirect 301 /energie/artikels/actualiteit/alle-informatie-over-de-digitale-meter-op-een-website https://www.tariefchecker.be/artikels/actualiteit/alle-informatie-over-de-digitale-meter-op-een-website
+Redirect 301 /energie/artikels/actualiteit/betalen-we-binnenkort-minder-taksen-op-elektriciteit https://www.tariefchecker.be/artikels/actualiteit/betalen-we-binnenkort-minder-taksen-op-elektriciteit
+Redirect 301 /energie/artikels/actualiteit/hernieuwbare-energie-schept-banen-consumenten-nemen-het-heft-handen https://www.tariefchecker.be/artikels/actualiteit/hernieuwbare-energie-banen
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/het-epc-een-notendop https://www.tariefchecker.be/faq/epc
+Redirect 301 /energie/artikels/faq-meest-gestelde-vragen/waarmee-kan-ik-best-mijn-simulatie-vergelijken-afrekening-voorschot https://www.tariefchecker.be/faq/hoe-kan-ik-best-mijn-besparing-berekenen
+Redirect 301 /energie/artikels/dossiers-uit-de-energiesector/hoe-groen-mijn-energieleverancier https://www.tariefchecker.be/artikels/dossiers-uit-de-energiesector/hoe-groen-is-mijn-energieleverancier
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/hoe-kan-ik-mijn-energieverbruik-kennen https://www.tariefchecker.be/faq/hoe-energieverbruik-kennen
+Redirect 301 /energie/artikels/actualiteit/hoeveel-jouw-energiefactuur-gestegen-de-laatste-jaren https://www.tariefchecker.be/artikels/actualiteit/hoeveel-is-jouw-energiefactuur-gestegen-de-laatste-jaren
+Redirect 301 /energie/artikels/actualiteit/goedkopere-energie-zorgt-voor-duizenden-banen https://www.tariefchecker.be/artikels/actualiteit/goedkopere-energie-zorgt-voor-duizenden-banen
+Redirect 301 /energie/artikels/actualiteit/energieministers-sluiten-akkoord-over-het-energiepact https://www.tariefchecker.be/artikels/actualiteit/energieministers-sluiten-akkoord-over-het-energiepact
+Redirect 301 /energie/artikels/actualiteit/hoge-energiefactuur-zo-kun-je-besparen https://www.tariefchecker.be/artikels/actualiteit/hoge-energiefactuur-besparen
+Redirect 301 /energie/artikels/actualiteit/houd-rekening-met-stijgende-energieprijzen-de-komende-jaren https://www.tariefchecker.be/artikels/actualiteit/stijgende-energieprijzen
+Redirect 301 /energie/artikels/actualiteit/installeer-een-thuisbatterij-en-ontvang-een-premie-tot-eu-3-200 https://www.tariefchecker.be/artikels/actualiteit/premie-thuisbatterij
+Redirect 301 /energie/artikels/actualiteit/de-grey-day-wat-heeft-dat-te-betekenen https://www.tariefchecker.be/artikels/actualiteit/de-grey-day-wat-heeft-dat-te-betekenen
+Redirect 301 /energie/artikels/actualiteit/vlaamse-regering-pakt-uit-met-betere-ondersteuning-voor-hernieuwbare-energie https://www.tariefchecker.be/artikels/actualiteit/vlaamse-regering-pakt-uit-met-betere-ondersteuning-voor-hernieuwbare-energie
+Redirect 301 /energie/artikels/actualiteit/steun-aan-energie-intensieve-bedrijven-werkt-niet https://www.tariefchecker.be/artikels/actualiteit/steun-aan-energie-intensieve-bedrijven-werkt-niet
+Redirect 301 /energie/artikels/actualiteit/de-slimme-meter-dan-toch-niet-slim https://www.tariefchecker.be/artikels/actualiteit/is-de-slimme-meter-dan-toch-niet-slim
+Redirect 301 /energie/artikels/actualiteit/een-slimme-thermostaat-wat-voor-jou https://www.tariefchecker.be/artikels/actualiteit/is-een-slimme-thermostaat-wat-voor-jou
+Redirect 301 /energie/artikels/dossiers-uit-de-energiesector/thorium-de-nieuwe-heilige-graal-energievoorziening https://www.tariefchecker.be/artikels/dossiers-uit-de-energiesector/is-thorium-de-nieuwe-heilige-graal-in-energievoorziening
+Redirect 301 /energie/artikels/actualiteit/jouw-energiefactuur-wordt-eindelijk-overzichtelijker https://www.tariefchecker.be/artikels/actualiteit/jouw-energiefactuur-wordt-overzichtelijker
+Redirect 301 /energie/artikels/actualiteit/kerncentrales-langer-openhouden-geen-oplossing https://www.tariefchecker.be/artikels/actualiteit/kerncentrales-langer-openhouden-is-geen-oplossing
+Redirect 301 /algemeen/artikels/actualiteit/kerncentrales-van-doel-liggen-al-stil-tot-december https://www.tariefchecker.be/artikels/actualiteit/kerncentrales-van-doel-liggen-stil-tot-december
+Redirect 301 /energie/artikels/actualiteit/kijk-uit-met-huis-aan-huisverkopers-van-energie https://www.tariefchecker.be/artikels/actualiteit/kijk-uit-huis-aan-huisverkopers-energie
+Redirect 301 /energie/artikels/actualiteit/komt-er-een-oplossing-voor-de-teveel-betaalde-energiebijdrage-0 https://www.tariefchecker.be/artikels/actualiteit/komt-er-een-oplossing-voor-de-teveel-betaalde-energiebijdrage
+Redirect 301 /energie/artikels/actualiteit/korting-op-de-federale-bijdrage-elektriciteit-2018-en-2019 https://www.tariefchecker.be/artikels/actualiteit/korting-federale-elektriciteitsbijdrage
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/verhuis-je-regel-de-overdracht-en-kies-de-goedkoopste-energieleverancier https://www.tariefchecker.be/faq/verhuis-je-regel-de-overdracht-en-kies-de-goedkoopste-energieleverancier
+Redirect 301 /energie/artikels/actualiteit/maatregelen-2015-met-verhogend-effect-op-uw-energiefactuur https://www.tariefchecker.be/artikels/actualiteit/maatregelen-in-2015-met-verhogend-effect-op-uw-energiefactuur
+Redirect 301 /energie/artikels/actualiteit/aanvullende-netkosten-voor-prosumenten-zullen-gemiddeld-160-350-euro-bedragen https://www.tariefchecker.be/artikels/actualiteit/capaciteitstarief-prosumenten
+Redirect 301 /energie/artikels/actualiteit/elke-woning-een-woningpas https://www.tariefchecker.be/artikels/actualiteit/elke-woning-een-woningpas
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/hoe-verander-ik-van-energieleverancier-2-stappen https://www.tariefchecker.be/faq/veranderen-energieleverancier
+Redirect 301 /energie/artikels/actualiteit/nog-nooit-switchten-zoveel-mensen-van-energieleverancier https://www.tariefchecker.be/artikels/actualiteit/switchen-energieleverancier
+Redirect 301 /algemeen/artikels/alle-artikels-actualiteit/nog-nooit-voerden-we-zoveel-energie-uit-het-buitenland https://www.tariefchecker.be/artikels/actualiteit/energie-uit-het-buitenland
+Redirect 301 /energie/artikels/actualiteit/norther-zorgt-voor-elektriciteit-voor-400-000-gezinnen https://www.tariefchecker.be/artikels/actualiteit/norther-windmolenpark-zorgt-voor-elektriciteit-voor-400-000-gezinnen
+Redirect 301 /algemeen/artikels/actualiteit/hernieuwbare-energie-steekt-steenkool-de-loef-af https://www.tariefchecker.be/artikels/actualiteit/hernieuwbare-energie-steekt-steenkool-de-loef-af
+Redirect 301 /energie/artikels/actualiteit/onrealistische-energienormen-jagen-de-kosten-de-hoogte-1 https://www.tariefchecker.be/artikels/actualiteit/onrealistische-energienormen-jagen-de-kosten-de-hoogte-in
+Redirect 301 /energie/artikels/actualiteit/ook-de-industrie-stijgende-energieprijzen-beu https://www.tariefchecker.be/artikels/actualiteit/ook-de-industrie-is-stijgende-energieprijzen-beu
+Redirect 301 /energie/artikels/actualiteit/opinie-moet-energie-goedkoper-worden-net-niet https://www.tariefchecker.be/artikels/actualiteit/opinie-moet-energie-goedkoper-worden-of-net-niet
+Redirect 301 /energie/artikels/actualiteit/hof-van-beroep-bevestigt-prosumententarief https://www.tariefchecker.be/artikels/actualiteit/hof-van-beroep-bevestigt-prosumententarief
+Redirect 301 /energie/artikels/actualiteit/overheid-investeert-fors-energie-efficientie https://www.tariefchecker.be/artikels/actualiteit/overheid-investeert-fors-in-energie-efficientie
+Redirect 301 /energie/artikels/actualiteit/record-aantal-gezinnen-en-bedrijven-veranderde-van-energieleverancier-2016 https://www.tariefchecker.be/artikels/actualiteit/record-aantal-gezinnen-en-bedrijven-veranderde-van-energieleverancier-in-2016
+Redirect 301 /energie/artikels/actualiteit/de-slimme-meter-een-stand-van-zaken https://www.tariefchecker.be/artikels/actualiteit/de-slimme-meter-een-stand-van-zaken
+Redirect 301 /artikels/actualiteit/recordaantal-gezinnen-en-bedrijven-stapte-2018-over-naar-een-andere-energieleverancier https://www.tariefchecker.be/artikels/actualiteit/recordaantal-gezinnen-en-bedrijven-switchen-van-energieleverancier
+Redirect 301 /algemeen/artikels/actualiteit/stroomtekort-torenhoge-energiefacturen https://www.tariefchecker.be/artikels/actualiteit/stroomtekort-energiefacturen
+Redirect 301 /artikels/actualiteit/terugdraaiende-teller-zonnepanelen-stopgezet https://www.tariefchecker.be/artikels/actualiteit/terugdraaiende-teller-zonnepanelen-stopgezet-brussel
+Redirect 301 /energie/artikels/actualiteit/energieleveranciers-mogen-terug-indexeren-vergelijken-belangrijker-dan-ooit https://www.tariefchecker.be/artikels/actualiteit/energieleveranciers-mogen-terug-indexeren-vergelijken-belangrijker-dan-ooit
+Redirect 301 /energie/artikels/actualiteit/test-aankoop-verhoogt-de-druk-op-overheid https://www.tariefchecker.be/artikels/actualiteit/test-aankoop-verhoogt-druk-op-overheid
+Redirect 301 /energie/artikels/actualiteit/tientallen-nieuwe-scheurtjes-belgische-kerncentrales-ontdekt https://www.tariefchecker.be/artikels/actualiteit/tientallen-nieuwe-scheurtjes-in-belgische-kerncentrales-ontdekt
+Redirect 301 /energie/artikels/actualiteit/uitstap-kernenergie-doet-uitstoot-energiesector-met-76%-stijgen https://www.tariefchecker.be/artikels/actualiteit/uitstap-kernenergie-doet-uitstoot-energiesector-met-76-stijgen
+Redirect 301 /algemeen/artikels/actualiteit/gezinnen-draaien-op-voor-groenestroombeleid https://www.tariefchecker.be/artikels/actualiteit/gezinnen-draaien-op-voor-groenestroombeleid
+Redirect 301 /energie/artikels/actualiteit/vanaf-juli-2018-geen-premies-meer-voor-zonnepanelen-wallonie https://www.tariefchecker.be/artikels/actualiteit/vanaf-juli-2018-geen-premies-meer-voor-zonnepanelen-in-wallonie
+Redirect 301 /energie/artikels/actualiteit/belpower-klant-tijd-om-over-te-stappen https://www.tariefchecker.be/artikels/actualiteit/belpower-klant-tijd-om-over-te-stappen
+Redirect 301 /energie/artikels/actualiteit/minder-energieleveranciers-hogere-prijzen https://www.tariefchecker.be/artikels/actualiteit/minder-energieleveranciers-hogere-prijzen
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/waarom-veranderen-van-energieleverancier-tariefchecker https://www.tariefchecker.be/faq/waarom-veranderen-van-energieleverancier-via-tariefchecker
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/verdeling-kosten-op-een-energiefactuur-gaselektriciteit-netkosten-en-taksen https://www.tariefchecker.be/faq/verdeling-kosten-op-een-energiefactuur-gas-elektriciteit-netkosten-en-taksen
+Redirect 301 /energie/artikels/actualiteit/particulieren-profiteren-niet-van-goedkope-energie https://www.tariefchecker.be/artikels/actualiteit/particulieren-profiteren-niet-van-goedkope-energie
+Redirect 301 /energie/artikels/actualiteit/de-distributienettarieven-stijgen-verder https://www.tariefchecker.be/artikels/actualiteit/de-distributienettarieven-stijgen-verder
+Redirect 301 /energie/artikels/actualiteit/belg-verbruikt-steeds-meer-energie https://www.tariefchecker.be/artikels/actualiteit/belg-verbruikt-steeds-meer-energie
+Redirect 301 /energie/artikels/actualiteit/staatssteun-voor-de-belgische-kerncentrales-goedgekeurd-door-de-eu https://www.tariefchecker.be/artikels/actualiteit/staatssteun-voor-de-belgische-kerncentrales-goedgekeurd-door-de-eu
+Redirect 301 /energie/artikels/actualiteit/verhogen-zonnepanelen-uw-elektriciteitsfactuur-vanaf-2019 https://www.tariefchecker.be/artikels/actualiteit/zonnepanelen-capaciteitstarief-elektriciteitsfactuur
+Redirect 301 /energie/artikels/actualiteit/vreg-verwelkomt-digitale-energiemeters-maar-heeft-nog-wat-bedenkingen https://www.tariefchecker.be/artikels/actualiteit/vreg-verwelkomt-digitale-energiemeters-maar-heeft-nog-wat-bedenkingen
+Redirect 301 /start https://www.tariefchecker.be
+Redirect 301 /energie/artikels/actualiteit/groene-stroom-wint-fors-terrein https://www.tariefchecker.be/artikels/actualiteit/groene-stroom-wint-fors-terrein
+Redirect 301 /energie/artikels/dossiers-uit-de-energiesector/verschil-netkosten-tussen-distributienetbeheerders-2014 https://www.tariefchecker.be/artikels/dossiers-uit-de-energiesector/verschil-netkosten-tussen-distributienetbeheerders-in-2014
+Redirect 301 /energie/artikels/actualiteit/zonnepanelen-en-windmolens-kunnen-voortaan-overal https://www.tariefchecker.be/artikels/actualiteit/zonnepanelen-en-windmolens-kunnen-voortaan-overal
+Redirect 301 /energie/vergelijk-alle-energieleveranciers-de-regio-antwerpen https://www.tariefchecker.be/energie/vergelijk-alle-energieleveranciers-in-de-regio-antwerpen
+Redirect 301 /energie/artikels/actualiteit/brandstofmixrapport-waar-komt-onze-vlaamse-stroom-vandaan https://www.tariefchecker.be/artikels/actualiteit/brandstofmixrapport-waar-komt-onze-vlaamse-stroom-vandaan
+Redirect 301 /energie/artikels/actualiteit/hernieuwbare-energie-voor-elk-budget-haalbaar https://www.tariefchecker.be/artikels/actualiteit/hernieuwbare-energie-voor-elk-budget-haalbaar
+Redirect 301 /energie/artikels/actualiteit/doel-1-2-krijgen-wederom-geen-certificaat https://www.tariefchecker.be/artikels/actualiteit/doel-1-2-krijgen-wederom-geen-certificaat
+Redirect 301 /energie/artikels/actualiteit/elektriciteit-dubbel-zo-duur-op-twee-jaar-tijd https://www.tariefchecker.be/artikels/actualiteit/elektriciteit-dubbel-zo-duur-op-twee-jaar-tijd
+Redirect 301 /energie/artikels/actualiteit/vlaamse-overheid-zeker-we-halen-doelstellingen-voor-windmolens https://www.tariefchecker.be/artikels/actualiteit/vlaamse-overheid-doelstellingen-windmolens
+Redirect 301 /energie/artikels/actualiteit/buitenlandse-spelers-ontdekken-belgische-energiemarkt https://www.tariefchecker.be/artikels/actualiteit/buitenlandse-spelers-ontdekken-belgische-energiemarkt
+Redirect 301 /energie/artikels/actualiteit/vlaanderen-op-schema-voor-productie-groene-stroom https://www.tariefchecker.be/artikels/actualiteit/vlaanderen-produceert-meer-groene-stroom
+Redirect 301 /energie/artikels/actualiteit/belgische-staat-moet-miljoenen-terugbetalen-aan-energieleveranciers https://www.tariefchecker.be/artikels/actualiteit/belgische-staat-moet-miljoenen-terugbetalen-aan-energieleveranciers
+Redirect 301 /energie/artikels/actualiteit/nog-geen-geld-voor-gas-switch https://www.tariefchecker.be/artikels/actualiteit/nog-geen-geld-voor-gas-switch
+Redirect 301 /energie/artikels/actualiteit/energieheffing-fors-lager-dan-voorheen https://www.tariefchecker.be/artikels/actualiteit/energieheffing-fors-lager-dan-voorheen
+Redirect 301 /energie/artikels/actualiteit/vlaanderen-wil-van-prosumententarief-af-wallonie-pro https://www.tariefchecker.be/nieuws/vlaanderen-prosumententarief-wallonie-pro
+Redirect 301 /energie/artikels/actualiteit/verhuizen-wat-moet-ik-allemaal-regelen https://www.tariefchecker.be/artikels/actualiteit/verhuizen-wat-moet-ik-allemaal-regelen
+Redirect 301 /energie/artikels/actualiteit/intercommunales-werden-de-voorbije-6-jaar-1-miljard-euro-rijker https://www.tariefchecker.be/artikels/actualiteit/intercommunales-werden-de-voorbije-6-jaar-1-miljard-euro-rijker
+Redirect 301 /energie/artikels/actualiteit/waalse-consument-betaalt-veel-te-veel-door-intercommunales-en-electrabel https://www.tariefchecker.be/artikels/actualiteit/waalse-consument-betaalt-veel-te-veel-door-intercommunales-en-electrabel
+Redirect 301 /energie/artikels/actualiteit/aanbod-groepsaankoop-energie-test-aankoop-duurder-dan-onze-aanbiedingen https://www.tariefchecker.be/artikels/actualiteit/aanbod-groepsaankoop-energie-test-aankoop-duurder-dan-onze-aanbiedingen
+Redirect 301 /energie/artikels/actualiteit/klimaatverandering-zorgt-voor-meer-stroomstoringen https://www.tariefchecker.be/artikels/actualiteit/klimaatverandering-zorgt-voor-meer-stroomstoringen
+Redirect 301 /energie/artikels/actualiteit/vreg-wil-piek-energieverbruik-duurder-maken https://www.tariefchecker.be/artikels/actualiteit/vreg-piek-energieverbruik-duurder
+Redirect 301 /energie/artikels/energie-besparen/waarom-brandstofcelverwarming-wat-voor-jou https://www.tariefchecker.be/artikels/energie-besparen/waarom-brandstofcelverwarming-wat-voor-jou-is
+Redirect 301 /energie/artikels/actualiteit/75-miljoen-euro-federale-energiebijdrage-teveel-geind https://www.tariefchecker.be/artikels/actualiteit/75-miljoen-euro-federale-energiebijdrage-teveel-geind
+Redirect 301 /energie/artikels/actualiteit/duitsers-slagen-waar-belgen-falen-windpark-zonder-subsidie https://www.tariefchecker.be/artikels/actualiteit/duitsers-slagen-waar-belgen-falen-windpark-zonder-subsidie
+Redirect 301 /energie/artikels/actualiteit/vlaams-klimaatakkoord-gaat-voor-groener https://www.tariefchecker.be/artikels/actualiteit/vlaams-klimaatakkoord-gaat-voor-groener
+Redirect 301 /energie/artikels/actualiteit/meer-en-meer-klachten-bij-de-federale-ombudsdienst-energie https://www.tariefchecker.be/artikels/actualiteit/meer-en-meer-klachten-bij-de-federale-ombudsdienst-energie
+Redirect 301 /energie/artikels/actualiteit/oversubsidie-van-hernieuwbare-stroom-moet-gedragen-worden-door-de-vlaamse-regering https://www.tariefchecker.be/artikels/actualiteit/oversubsidie-van-hernieuwbare-stroom-moet-gedragen-worden-door-de-vlaamse-regering
+Redirect 301 /energie/artikels/actualiteit/waarom-iswas-de-vlaming-zo-fan-van-groene-stroom https://www.tariefchecker.be/artikels/actualiteit/waarom-is-was-de-vlaming-zo-fan-van-groene-stroom
+Redirect 301 /energie/artikels/actualiteit/hoe-zonne-energie-opslaan-en-verspilling-tegen-gaan https://www.tariefchecker.be/artikels/actualiteit/hoe-zonne-energie-opslaan-en-verspilling-tegen-gaan
+Redirect 301 /energie/artikels/actualiteit/waarom-je-woonplaats-een-stevige-impact-heeft-op-je-energiefactuur https://www.tariefchecker.be/artikels/actualiteit/woonplaats-impact-energiefactuur
+Redirect 301 /energie/artikels/actualiteit/de-energieprijzen-stegen-ook-vorig-jaar-pittig https://www.tariefchecker.be/artikels/actualiteit/de-energieprijzen-stegen-ook-vorig-jaar-pittig
+Redirect 301 /energie/artikels/actualiteit/waarom-je-woonplaats-een-stevige-impact-heeft-op-je-energiefactuur-0 https://www.tariefchecker.be/artikels/actualiteit/woonplaats-impact-energiefactuur
+Redirect 301 /energie/artikels/actualiteit/wat-de-winterpromotie-van-essent-waard-geniet-van-een-hele-winter-gratis-elektriciteit https://www.tariefchecker.be/artikels/actualiteit/wat-is-de-winterpromotie-van-essent-waard-geniet-van-een-hele-winter-gratis-elektriciteit
+Redirect 301 /energie/artikels/actualiteit/belgen-betalen-nog-steeds-veel-te-veel-voor-hun-energie https://www.tariefchecker.be/artikels/actualiteit/belgen-betalen-nog-steeds-veel-te-veel-voor-hun-energie
+Redirect 301 /energie/artikels/actualiteit/wat-brengen-de-slimme-meters-ons-bij https://www.tariefchecker.be/artikels/actualiteit/wat-brengen-de-slimme-meters-ons-bij
+Redirect 301 /energie/artikels/actualiteit/berg-groenestroomcertificaten-daalt-fors https://www.tariefchecker.be/artikels/actualiteit/berg-groenestroomcertificaten-daalt-fors
+Redirect 301 /energie/artikels/energie-besparen/wat-het-voordeligst-koken-op-gas-op-elektriciteit https://www.tariefchecker.be/artikels/energie-besparen/wat-is-het-voordeligst-koken-op-gas-of-op-elektriciteit
+Redirect 301 /energie/artikels/actualiteit/netbeheerders-blijven-puike-kwaliteit-afleveren https://www.tariefchecker.be/artikels/actualiteit/netbeheerders-blijven-puike-kwaliteit-afleveren
+Redirect 301 /algemeen/artikels/actualiteit/wat-kies-je-een-vast-variabel-energietarief https://www.tariefchecker.be/artikels/actualiteit/kies-vast-of-variabel-energietarief
+Redirect 301 /energie/artikels/actualiteit/5-redenen-om-nu-van-leverancier-te-veranderen https://www.tariefchecker.be/artikels/actualiteit/5-redenen-om-nu-van-leverancier-te-veranderen
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/welke-metertypes-bestaan-er-en-hoe-herken-je-ze https://www.tariefchecker.be/faq/metertypes
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/wie-mijn-distributienetbeheerder https://www.tariefchecker.be/faq/wie-is-mijn-distributienetbeheerder
+Redirect 301 /energie/artikels/alle-artikels/uitstap-kernenergie-doet-uitstoot-energiesector-met-76%-stijgen https://www.tariefchecker.be/artikels/actualiteit/uitstap-kernenergie-doet-uitstoot-energiesector-met-76-stijgen
+Redirect 301 /energie/artikels/actualiteit/dec-2015-stand-van-zaken-kerncentrales-doel-en-tihange https://www.tariefchecker.be/artikels/actualiteit/dec-2015-stand-van-zaken-kerncentrales-doel-en-tihange
+Redirect 301 /energie/artikels/actualiteit/zelf-energie-opslaan-lijkt-een-stroomversnelling-te-komen https://www.tariefchecker.be/artikels/actualiteit/zelf-energie-opslaan-lijkt-in-een-stroomversnelling-te-komen
+Redirect 301 /energie/artikels/actualiteit/word-jij-de-eerste-project-manager-van-tariefchecker https://www.tariefchecker.be/artikels/actualiteit/word-jij-de-eerste-project-manager-van-tariefchecker
+Redirect 301 /energie/artikels/actualiteit/zijn-zonnepanelen-nog-een-goede-investering https://www.tariefchecker.be/artikels/actualiteit/investeren-zonnepanelen
+Redirect 301 /energie/artikels/actualiteit/6-redenen-om-nu-van-leverancier-te-veranderen https://www.tariefchecker.be/artikels/actualiteit/6-redenen-om-nu-van-leverancier-te-veranderen
+Redirect 301 /vergelijking-groepsaankoop-testaankoop/ https://www.tariefchecker.be/artikels/actualiteit/aanbod-groepsaankoop-energie-test-aankoop-duurder-dan-onze-aanbiedingen
+Redirect 301 /energie/artikels/actualiteit/5-concrete-tips-om-een-hoge-afrekening-en-afbetalingsplan-te-vermijden https://www.tariefchecker.be/artikels/actualiteit/5-concrete-tips-om-een-hoge-afrekening-en-afbetalingsplan-te-vermijden
+Redirect 301 /energie/artikels/actualiteit/je-energiekosten-ontleed https://www.tariefchecker.be/artikels/actualiteit/je-energiekosten-ontleed
+Redirect 301 /energie/artikels/actualiteit/verhoging-taksen-en-netkosten-2017-niet-voor-iedereen-gelijk https://www.tariefchecker.be/artikels/actualiteit/verhoging-taksen-en-netkosten-2017-niet-voor-iedereen-gelijk
+Redirect 301 /energie/artikels/actualiteit/kernuitstap-hoogstwaarschijnlijk-uitgesteld-om-bevoorradingsproblemen-te-milderen https://www.tariefchecker.be/artikels/actualiteit/kernuitstap-hoogstwaarschijnlijk-uitgesteld-om-bevoorradingsproblemen-te-milderen
+Redirect 301 /energie/artikels/actualiteit/oorlog-in-de-energiesector-doe-er-je-voordeel-mee https://www.tariefchecker.be/artikels/actualiteit/oorlog-in-de-energiesector-doe-er-je-voordeel-mee
+Redirect 301 /energie/artikels/actualiteit/energiefactuur-stijgt-door-te-dure-windmolens https://www.tariefchecker.be/artikels/actualiteit/energiefactuur-stijgt-door-te-dure-windmolens
+Redirect 301 /energie/artikels/actualiteit/de-belgische-energiecijfers-van-2016 https://www.tariefchecker.be/artikels/actualiteit/de-belgische-energiecijfers-van-2016
+Redirect 301 /energie/artikels/actualiteit/sociale-fraude-opsporen-adhv-de-energie-en-waterfactuur https://www.tariefchecker.be/artikels/actualiteit/sociale-fraude-opsporen-adhv-de-energie-en-waterfactuur
+Redirect 301 /energie/artikels/actualiteit/electrabel-wordt-engie-electrabel https://www.tariefchecker.be/artikels/actualiteit/electrabel-wordt-engie-electrabel
+Redirect 301 /energie/artikels/actualiteit/het-afschakelplan-bij-stroomtekort-nu-ook-de-straten-gekend https://www.tariefchecker.be/artikels/actualiteit/het-afschakelplan-bij-stroomtekort-nu-ook-de-straten-gekend
+Redirect 301 /energie/artikels/actualiteit/zitten-we-november-zonder-stroom https://www.tariefchecker.be/artikels/actualiteit/zitten-we-in-november-zonder-stroom
+Redirect 301 /energie/artikels/actualiteit/belgisch-afschakelplan-om-totale-black-outs-te-vermijden https://www.tariefchecker.be/artikels/actualiteit/belgisch-afschakelplan-om-totale-black-outs-te-vermijden
+Redirect 301 /energie/artikels/actualiteit/verhoogde-distributiekosten-2015-gekend-en-invoering-van-een-injectietarief https://www.tariefchecker.be/artikels/actualiteit/verhoogde-distributiekosten-2015-gekend-en-invoering-van-een-injectietarief
+Redirect 301 /algemeen/artikels/alle-artikels/de-regulatoire-saldi-2016-zijn-bekend https://www.tariefchecker.be/artikels/actualiteit/de-regulatoire-saldi-2016-zijn-bekend
+Redirect 301 /user/password https://www.tariefchecker.be
+Redirect 301 /energie/artikels/actualiteit/bevolking-bevraagd-over-belgisch-klimaatplan https://www.tariefchecker.be/artikels/actualiteit/bevraging-klimaatplan-belgie
+Redirect 301 /energie/artikels/FAQ-veelgestelde-vragen https://www.tariefchecker.be/energie/faq
+Redirect 301 /telecom https://www.tariefchecker.be
+Redirect 301 /energie/artikels/actualiteit/binnenkort-dubbel-zoveel-zonne-en-windenergie https://www.tariefchecker.be/artikels/actualiteit/meer-wind-en-zonneenergie
+Redirect 301 /algemeen/partners https://www.tariefchecker.be/partners
+Redirect 301 /energie/artikels/energie-besparen/5-tips-om-energie-te-besparen https://www.tariefchecker.be/artikels/energie-besparen/5-tips-om-energie-te-besparen
+Redirect 301 /energie/artikels/categorie https://www.tariefchecker.be
+Redirect 301 /artikels/actualiteit/blockchain-gaat-netwerkbeheerder-elia-helpen https://www.tariefchecker.be/artikels/actualiteit/blockchain-netwerkbeheerder-elia-helpen
+Redirect 301 /algemeen/over-tariefcheckerbe https://www.tariefchecker.be/over-tariefchecker-be
+Redirect 301 /artikels/actualiteit/blockchain-gaat-netwerkbeheerder-elia-helpen-0 https://www.tariefchecker.be/artikels/actualiteit/blockchain-netwerkbeheerder-elia-helpen
+Redirect 301 /energie/artikels/actualiteit/btw-verlaging-op-elektriciteit-de-slechtste-maatregel-ooit https://www.tariefchecker.be/artikels/actualiteit/btw-verlaging-op-elektriciteit-is-de-slechtste-maatregel-ooit
+Redirect 301 /energie/artikels/faq-meest-gestelde-vragen/btw-verlaging-van-21-naar-6%-op-elektriciteit-wat-betekent-dat-voor-u https://www.tariefchecker.be/faq/btw-verlaging-van-21-naar-6-op-elektriciteit-wat-betekent-dat-voor-u
+Redirect 301 /energie/artikels/actualiteit/burger-krijgt-inspraak-energiebeleid https://www.tariefchecker.be/artikels/actualiteit/burger-krijgt-inspraak-in-energiebeleid
+Redirect 301 /energie/artikels/faq-meest-gestelde-vragen/waarom-krijg-ik-een-hoge-afrekening-op-mijn-energiefactuur https://www.tariefchecker.be/faq/waarom-krijg-ik-een-hoge-afrekening-op-mijn-energiefactuur
+Redirect 301 /algemeen/artikels/actualiteit/concurrentie-energiesector-neemt-af https://www.tariefchecker.be/artikels/actualiteit/concurrentie-energiesector
+Redirect 301 /verzekeringen https://www.tariefchecker.be
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/wanneer-mag-ik-overstappen-naar-mijn-nieuwe-energieleverancier https://www.tariefchecker.be/faq/wanneer-mag-ik-overstappen-naar-mijn-nieuwe-energieleverancier
+Redirect 301 /energie/artikels/actualiteit/consumentenakkoord-energie-door-leveranciers-getekend https://www.tariefchecker.be/artikels/actualiteit/consumentenakkoord-energie-getekend
+Redirect 301 /energie/artikels/dossiers-uit-de-energiesector/wie-doet-wat-de-belgische-energiemarkt https://www.tariefchecker.be/artikels/dossiers-uit-de-energiesector/wie-doet-wat-in-de-belgische-energiemarkt
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/de-v-test-van-de-vreg-mijnenergie-be-en-tariefchecker-verschillen-en-overeenkomsten https://www.tariefchecker.be/faq/de-v-test-van-de-vreg-mijnenergie-be-en-tariefchecker-verschillen-en-overeenkomsten
+Redirect 301 /energie/artikels/energie-besparen/de-ergste-koude-voorbij-maar-anticiperen-nodig https://www.tariefchecker.be/artikels/energie-besparen/winterprik
+Redirect 301 /energie/artikels/actualiteit/de-evoluties-de-prijzen-van-de-groothandelsmarkt-belgie https://www.tariefchecker.be/artikels/actualiteit/de-evoluties-in-de-prijzen-van-de-groothandelsmarkt-in-belgie
+Redirect 301 /energie/artikels/dossiers-uit-de-energiesector/de-greenpeace-groenscore-wie-echt-groen https://www.tariefchecker.be/artikels/dossiers-uit-de-energiesector/de-greenpeace-groenscore-wie-is-echt-groen
+Redirect 301 /energie/artikels/faq-meest-gestelde-vragen/hoe-vermijd-ik-een-hoge-slotafrekening-na-mijn-leverancierswissel https://www.tariefchecker.be/faq/hoe-vermijd-ik-een-hoge-slotafrekening-na-mijn-leverancierswissel
+Redirect 301 /artikels/actualiteit/de-opbrengst-van-zonnedelen-niet-te-zien-op-eigen-energiefactuur https://www.tariefchecker.be/nieuws/opbrengst-zonnedelen-energiefactuur
+Redirect 301 /energie/artikels/actualiteit/de-premie-voor-een-thuisbatterij-de-moeite-waard https://www.tariefchecker.be/artikels/actualiteit/thuisbatterij-investering-premie
+Redirect 301 /essent https://www.tariefchecker.be/energie/energieleveranciers-belgie/essent
+Redirect 301 /energie/artikels/actualiteit/de-resultaten-van-de-nieuwe-markmonitor-2018-zijn-bekend https://www.tariefchecker.be/artikels/actualiteit/marktmonitor-2018
+Redirect 301 /energie/artikels/actualiteit/de-zonnekaart-er https://www.tariefchecker.be/artikels/actualiteit/de-zonnekaart-is-er
+Redirect 301 /algemeen/artikels/actualiteit/deur-aan-deur-verkoop-geraakt-niet-van-kwalijke-reputatie-af https://www.tariefchecker.be/artikels/actualiteit/deur-aan-deur-verkoop-elektriciteit
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/lijst-distributienetbeheerder-postcode https://www.tariefchecker.be/faq/lijst-distributienetbeheerder-per-postcode
+Redirect 301 /energie/artikels/actualiteit/recordaantal-gezinnen-en-bedrijven-switchen-van-energieleverancier https://www.tariefchecker.be/artikels/actualiteit/recordaantal-gezinnen-en-bedrijven-switchen-van-energieleverancier
+Redirect 301 /energie/artikels/dossiers-uit-de-energiesector https://www.tariefchecker.be/artikels/dossiers-uit-de-energiesector
+Redirect 301 /energie/artikels/actualiteit/duurzame-chinese-energie-voor-europa https://www.tariefchecker.be/artikels/actualiteit/chinese-energie
+Redirect 301 /energie/artikels/actualiteit/energiefactuur-vaak-te-complex https://www.tariefchecker.be/artikels/actualiteit/energiefactuur-vaak-te-complex
+Redirect 301 /energie/artikels/actualiteit/elektriciteit-belgie-peperduur-vergelijking-met-buurlanden https://www.tariefchecker.be/artikels/actualiteit/kostprijs-energie-hoog
+Redirect 301 /energie/artikels/energie-besparen https://www.tariefchecker.be/artikels/energie-besparen
+Redirect 301 /energie/artikels/actualiteit/vlaamse-energieambities-worden-getemperd https://www.tariefchecker.be/artikels/actualiteit/vlaamse-energieambities-worden-getemperd
+Redirect 301 /energie/artikels/energie-besparen/energie-besparen-tijdens-de-zomer-regel-je-ketel-bij https://www.tariefchecker.be/artikels/energie-besparen/energie-besparen
+Redirect 301 /energie/artikels/actualiteit/februari-2015-energie-het-goedkoopst-ooit https://www.tariefchecker.be/artikels/actualiteit/in-februari-2015-is-energie-het-goedkoopst-ooit
+Redirect 301 /energie/artikels/actualiteit/het-capaciteitstarief-een-stand-van-zaken https://www.tariefchecker.be/artikels/actualiteit/het-capaciteitstarief-een-stand-van-zaken
+Redirect 301 /energie/artikels/actualiteit/energie-een-klap-110-euro-duurder https://www.tariefchecker.be/artikels/actualiteit/energie-110-euro-duurder
+Redirect 301 /energie/artikels/actualiteit/energie-ook-de-voorbije-6-maand-weer-duurder https://www.tariefchecker.be/artikels/actualiteit/energiefactuur-duurder
+Redirect 301 /energie/artikels/actualiteit/energie-vorig-jaar-weer-68-euro-duurder https://www.tariefchecker.be/artikels/actualiteit/energiefactuur-duurder-2
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/je-energiecontract-opzeggen-wat-als-je-geen-nieuwe-leverancier-kiest https://www.tariefchecker.be/faq/je-energiecontract-opzeggen-wat-als-je-geen-nieuwe-leverancier-kiest
+Redirect 301 /energie/artikels/actualiteit/energiecentrales-kunnen-dicht-2025-als-de-regering-actie-schiet https://www.tariefchecker.be/artikels/actualiteit/energiecentrales-kunnen-dicht-in-2025-als-de-regering-in-actie-schiet
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/energiefacturen-alles-over-voorschotten-en-afrekeningen https://www.tariefchecker.be/faq/energiefactuur-voorschotten-afrekening
+Redirect 301 /energie/artikels/actualiteit/energiekosten-maken-belgie-minder-aantrekkelijk-voor-bedrijven https://www.tariefchecker.be/artikels/actualiteit/energiekost-belgie
+Redirect 301 /antargaz https://www.veriftarif.be/energie/fournisseurs-energie-belgique/antargaz
+Redirect 301 /comparez-vos-frais-energetiques-ceux-d-autres-fournisseurs-d-energie https://www.veriftarif.be/
+Redirect 301 /articles/energie/FAQ-foire-aux-questions https://www.veriftarif.be/faq-foire-aux-questions
+Redirect 301 /ils-ont-choisi-veriftarif-be-pour-trouver-le-fournisseur-d-energie-le-moins-cher-commentaires-et-temoignages https://www.veriftarif.be/
+Redirect 301 /comparer-rapidement-et-simplement-les-fournisseurs-d-energie-en-belgique https://www.veriftarif.be/energie/comparer-rapidement-et-simplement-les-fournisseurs-d-energie-en-belgique
+Redirect 301 /le-meilleur-comparateur-de-fournisseurs-d-energie-en-belgique https://www.veriftarif.be/energie/le-meilleur-comparateur-de-fournisseurs-d-energie-en-belgique
+Redirect 301 /articles/organiser-son-demenagement-les-etapes-suivre-pour-transferer-vos-compteurs-d-energie https://www.veriftarif.be/faq-foire-aux-questions/organiser-son-demenagement-les-etapes-a-suivre-pour-transferer-vos-compteurs-d-energie
+Redirect 301 /devenir-partenaire https://www.veriftarif.be/contact
+Redirect 301 /electrabel https://www.veriftarif.be/energie/fournisseurs-energie-belgique/engie-electrabel
+Redirect 301 /energie/articles/actualite/electrabel-change-son-nom-en-engie-electrabel https://www.veriftarif.be/articles/actualite/electrabel-change-son-nom-en-engie-electrabel
+Redirect 301 /elegant https://www.veriftarif.be/energie/fournisseurs-energie-belgique/elegant
+Redirect 301 /articles/energie/specificitees-du-secteur-de-l-energie https://www.veriftarif.be/articles/le-secteur-de-l-energie
+Redirect 301 /eneco https://www.veriftarif.be/energie/fournisseurs-energie-belgique/eneco
+Redirect 301 /energie/articles/actualite/engie-electrabel-active-et-boxx-juges-objectivement https://www.veriftarif.be/articles/actualite/engie-electrabel-active-et-boxx-juges-objectivement
+Redirect 301 /eni https://www.veriftarif.be/energie/fournisseurs-energie-belgique/eni-nuon
+Redirect 301 /essent https://www.veriftarif.be/energie/fournisseurs-energie-belgique/essent
+Redirect 301 /articles/les-particuliers-et-petits-consommateurs-professionnels-ne-paieront-plus-de-frais-de-resiliation-de-leurs-contrats-d-energie https://www.veriftarif.be/faq-foire-aux-questions/les-particuliers-et-petits-consommateurs-professionnels-ne-paieront-plus-de-frais-de-resiliation-de-leurs-contrats-d-energie
+Redirect 301 /un-d-electricite-gratuite-gagner-chaque-mois https://www.veriftarif.be/energie/garantie-meilleur-prix
+Redirect 301 /trouver-l-energie-la-moins-chere-bruxelles https://www.veriftarif.be/energie/comparaison-bruxelles
+Redirect 301 /lampiris https://www.veriftarif.be/energie/fournisseurs-energie-belgique/lampiris
+Redirect 301 /energie/articles/specificitees-du-secteur-de-l-energie/le-score-greenpeace-quel-fournisseur-d-energie-est-reellement-durable https://www.veriftarif.be/articles/le-secteur-de-l-energie/le-score-greenpeace-quel-fournisseur-d-energie-est-reellement-durable
+Redirect 301 /energie/articles/actualite/5-raisons-pour-changer-de-fournisseur-maintenant https://www.veriftarif.be/articles/actualite/5-raisons-pour-changer-de-fournisseur-maintenant
+Redirect 301 /general/propos-de-nous https://www.veriftarif.be/qui-sommes-nous
+Redirect 301 /energie/les-fournisseurs-d-energie https://www.veriftarif.be/energie/fournisseurs-energie-belgique
+Redirect 301 /energie/comparer-les-fournisseurs-d-energie-en-3-etapes https://www.veriftarif.be/energie/comparer-rapidement-et-simplement-les-fournisseurs-d-energie-en-belgique
+Redirect 301 /notre-equipe https://www.veriftarif.be/qui-sommes-nous
+Redirect 301 /energie/articles/faq-foire-aux-questions/fini-les-frais-de-resiliation-pour-les-particuliers-et-petits-consommateurs-professionels https://www.veriftarif.be/faq-foire-aux-questions/les-particuliers-et-petits-consommateurs-professionnels-ne-paieront-plus-de-frais-de-resiliation-de-leurs-contrats-d-energie
+Redirect 301 /energie/articles/faq-foire-aux-questions/tva-6%-etes-vous-concernes https://www.veriftarif.be/articles/actualite/tva-sur-l-electricite-a-6-etes-vous-concernes-et-comment-en-beneficier
+Redirect 301 /énergie/articles/aperçu-de-tous-les-articles-faq-foire-aux-questions/fini-les-frais-de-résiliation-pour-les-particuliers-et-petits-consommateurs-professionels https://www.veriftarif.be/faq-foire-aux-questions/les-particuliers-et-petits-consommateurs-professionnels-ne-paieront-plus-de-frais-de-resiliation-de-leurs-contrats-d-energie
+Redirect 301 /energie/articles/actualite/la-baisse-de-la-tva-une-mesure-qui-ne-sert-rien https://www.veriftarif.be/articles/actualite/baisser-la-tva-sur-l-electricite-n-est-pas-la-solution-adequate-pour-relancer-l-economie-belge
+Redirect 301 /énergie/foire-a-questions-FAQ https://www.veriftarif.be/energie/faq
+Redirect 301 /articles/propos-de-nous-veriftarif-x-29-qui-sommes-nous-veriftarif-30-tariefchecker-be-brengt-duidelijkheid-de-energiemarkt-en-helpt-je-om-objectief-de-juiste-keuze-te-maken-nu-en-de-toekomst-gratis-correct-en-onafhankelijk-163-historique-du-site https://www.veriftarif.be/
+Redirect 301 /luminus https://www.veriftarif.be/energie/fournisseurs-energie-belgique/edf-luminus
+Redirect 301 /articles/des-tarifs-encore-moins-chers-que-les-groupements-d-achat https://www.veriftarif.be/articles/actualite/des-tarifs-encore-moins-chers-que-les-groupements-d-achat
+Redirect 301 /octaplus https://www.veriftarif.be/energie/fournisseurs-energie-belgique/octaplus
+Redirect 301 /poweo https://www.veriftarif.be/energie/fournisseurs-energie-belgique/poweo
+Redirect 301 /presentation-de-l-equipe-derriere-le-comparateur-de-fournisseurs-d-energie-veriftarif-be https://www.veriftarif.be/qui-sommes-nous
+Redirect 301 /optimiser-les-tarifs-d-energie-pour-les-professionnels https://www.veriftarif.be/energie/professionnels
+Redirect 301 /faq-la-reponse-toutes-vos-questions-concernant-la-fourniture-d-energie https://www.veriftarif.be/energie/faq
+Redirect 301 /veriftarif-un-comparateur-de-fournisseurs-d-energie-gratuit-simple-et-independant https://www.veriftarif.be/energie/veriftarif-un-comparateur-de-fournisseurs-d-energie-gratuit-simple-et-independant
+Redirect 301 /energie/optimaliser-les-tarifs-d-energie-pour-les-professionnels https://www.veriftarif.be/energie/professionnels
+Redirect 301 /energie/leveranciers https://www.tariefchecker.be/energie/de-belgische-energieleveranciers
+Redirect 301 /energie/artikels/actualiteit/brandstofmixrapport-waar-komt-onze-vlaamse-stroom-vandaan https://www.tariefchecker.be/artikels/actualiteit/brandstofmixrapport-waar-komt-onze-vlaamse-stroom-vandaan
+Redirect 301 /energie/artikels/faq-meest-gestelde-vragen/waarmee-kan-ik-best-mijn-simulatie-vergelijken-afrekening-voorschot https://www.tariefchecker.be/faq/hoe-kan-ik-best-mijn-besparing-berekenen
+Redirect 301 /energie/artikels/actualiteit https://www.tariefchecker.be/category/artikels/actualiteit
+Redirect 301 /eni-vroeger-nuon https://www.tariefchecker.be/energie/energieleveranciers-belgie/eni/
+Redirect 301 /energie/belgische-energieleveranciers https://www.tariefchecker.be/energie/energieleveranciers-belgie/
+
+Redirect 301 /algemene-voorwaarden https://www.tariefchecker.be/algemene-voorwaarden-en-bescherming-van-de-persoonsgegevens
+Redirect 301 /artikels/actualiteit/5-meest-gestelde-vragen-over-groene-energie https://www.tariefchecker.be/groene-energie
+Redirect 301 /artikels/actualiteit/6-op-de-10-vlamingen-bouwt-bijna-energie-neutraal-ben https://www.tariefchecker.be/artikels/actualiteit/6-op-de-10-vlamingen-bijna-energie-neutraal
+Redirect 301 /artikels/actualiteit/bespaar-tot-eu-500-jaar-op-je-energiefactuur https://www.tariefchecker.be/artikels/actualiteit/bespaar-tot-e-500-per-jaar-op-je-energiefactuur
+Redirect 301 /energie/3-stappen-plan-veranderen-van-energieleverancier-gemakkelijk https://www.tariefchecker.be/artikels/3-stappen-plan-veranderen-van-energieleverancier-is-gemakkelijk
+Redirect 301 /energie/artikels/actualiteit/328-energieverslindende-bedrijven-besparen-meer-dan-het-verbruik-van-150-000-gezinnen https://www.tariefchecker.be/artikels/actualiteit/energieverslindende-bedrijven
+Redirect 301 /energie/artikels/actualiteit/alles-wat-je-moet-weten-over-groene-stroom https://www.tariefchecker.be/artikels/actualiteit/groene-stroom
+Redirect 301 /energie/artikels/actualiteit/belgen-betalen-een-stuk-meer-voor-hun-elektriciteit-dan-de-buurlanden https://www.tariefchecker.be/artikels/actualiteit/elektriciteit-duurder-belgie-dan-buurlanden
+Redirect 301 /energie/artikels/actualiteit/belgie-wereldrecordhouder-sluitingen-kernreactoren-0 https://www.tariefchecker.be/artikels/actualiteit/belgie-wereldrecordhouder-in-sluitingen-kernreactoren
+Redirect 301 /energie/artikels/actualiteit/nog-nooit-zoveel-zonne-energie-gebruikt https://www.tariefchecker.be/artikels/actualiteit/energie-uit-het-buitenland
+Redirect 301 /energie/artikels/energie-besparen/5-energievreters-je-woning https://www.tariefchecker.be/artikels/energie-besparen/tips-besparen-energieverbruik
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/het-epc-een-notendop https://www.tariefchecker.be/faq/epc
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/hoe-verander-ik-van-energieleverancier-2-stappen https://www.tariefchecker.be/faq/veranderen-energieleverancier
+Redirect 301 /energie/artikels/faq-veelgestelde-vragen/wie-mijn-distributienetbeheerder https://www.tariefchecker.be/faq/wie-is-mijn-distributienetbeheerder
+Redirect 301 /feedback-getuigenissen https://www.tariefchecker.be
+Redirect 301 /energie/artikels/actualiteit/01032016-invoering-van-de-turteltaks https://www.tariefchecker.be/artikels/actualiteit/het-einde-van-de-turteltaks-wat-betekent-dit-voor-jou
+Redirect 301 /energie/les-fournisseurs-d-energie-en-belgique https://www.veriftarif.be/energie/fournisseurs-energie-belgique
+Redirect 301 /user https://www.tariefchecker.be
+Redirect 301 /user?destination=node/add/testimonial https://www.tariefchecker.be
+Redirect 301 /user/register https://www.tariefchecker.be
+Redirect 301 /belpower https://www.veriftarif.be/energie/fournisseurs-energie-belgique
+Redirect 301 /comfort-energy https://www.veriftarif.be/energie/fournisseurs-energie-belgique/comfort-energy
+Redirect 301 /cdn-cgi/l/email-protection https://www.veriftarif.be
+Redirect 301 /articles/energie/actualite https://www.veriftarif.be/category/articles/actualite
+Redirect 301 /énergie/articles/catégories https://www.veriftarif.be/category/articles
+Redirect 301 /suivi-personnalise-base-sur-votre-profil-de-consommation-en-energie https://www.veriftarif.be/energie/suivi-personnalise
+Redirect 301 /category/articles/actualite/feed https://www.veriftarif.be/category/articles/actualite
+Redirect 301 /articles/actualite/5-raisons-pour-changer-de-fournisseur-maintenant/feed https://www.veriftarif.be/category/articles/actualite
+Redirect 301 /qui-sommes-nous/feed https://www.veriftarif.be/qui-sommes-nous
+Redirect 301 /articles/actualite/engie-electrabel-active-et-boxx-juges-objectivement/feed https://www.veriftarif.be/category/articles/actualite
+Redirect 301 /feed https://www.veriftarif.be/category/articles/actualite
+Redirect 301 /comments/feed https://www.veriftarif.be/category/articles/actualite
+Redirect 301 /contact/feed https://www.veriftarif.be/category/articles/actualite
+Redirect 301 /category/faq-foire-aux-questions/feed https://www.veriftarif.be/category/articles/actualite
+Redirect 301 /energie/les-fournisseurs-d-energie-en-belgique https://www.veriftarif.be/energie/fournisseurs-energie-belgique
