@@ -1,0 +1,4 @@
+[18-Jan-2019 06:10:37 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/tariefch/public_html/dev/wp-content/themes/route-child/functions.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tariefch/public_html/dev/wp-content/themes/route-child/functions.php on line 3

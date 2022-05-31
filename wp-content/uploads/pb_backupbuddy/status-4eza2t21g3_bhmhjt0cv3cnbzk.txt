@@ -1,0 +1,17 @@
+{"event":"message","time":1626087619,"u":"81","run":"49.89","mem":"40.15","data":"Pong! Server replied."}
+{"event":"details","time":1626088044,"u":"04","run":"561.01","mem":"34.24","data":"Zip process exit code: 14"}
+{"event":"details","time":1626088044,"u":"04","run":"561.01","mem":"34.24","data":"Zip process reported: 0 warnings"}
+{"event":"details","time":1626088044,"u":"04","run":"561.02","mem":"34.24","data":"Zip process reported: 1 error"}
+{"event":"details","time":1626088044,"u":"04","run":"561.02","mem":"34.24","data":"Zip process reported: zip error: Output file write failure (write error on zip file)"}
+{"event":"details","time":1626088044,"u":"04","run":"561.02","mem":"34.24","data":"Zip Archive file created but with errors\/actionable-warnings so will be deleted - check process exit code and warnings."}
+{"event":"details","time":1626088044,"u":"04","run":"561.02","mem":"34.23","data":"The exec method for ZIP was unsuccessful."}
+{"event":"details","time":1626088044,"u":"04","run":"561.02","mem":"34.23","data":"Failed to create a Zip Archive file with any nominated method."}
+{"event":"details","time":1626088044,"u":"04","run":"561.02","mem":"34.19","data":"Removing temp data directory."}
+{"event":"details","time":1626088044,"u":"05","run":"561.03","mem":"34.19","data":"Removing temp zip directory."}
+{"event":"error","time":1626088044,"u":"12","run":"561.10","mem":"34.19","data":"Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information."}
+{"event":"haltScript","time":1626088044,"u":"12","run":"561.10","mem":"34.19","data":""}
+{"event":"error","time":1626088044,"u":"12","run":"561.10","mem":"34.19","data":"Failed function `backup_zip_files`. Backup terminated."}
+{"event":"errorFunction","time":1626088044,"u":"12","run":"561.10","mem":"34.19","data":"backup_zip_files"}
+{"event":"details","time":1626088044,"u":"12","run":"561.10","mem":"34.19","data":"Peak memory usage: 34.584 MB"}
+{"event":"haltScript","time":1626088044,"u":"12","run":"561.10","mem":"34.19","data":""}
+{"event":"details","time":1626088044,"u":"23","run":"561.21","mem":"34.36","data":"Sending email error notification with subject `BackupBuddy Server Error - https:\/\/www.tariefchecker.be` to recipient(s): `info@digitaldudes.be`."}

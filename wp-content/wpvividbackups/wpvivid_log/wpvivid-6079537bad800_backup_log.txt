@@ -1,0 +1,744 @@
+Log created: 2021-04-16 09:06:03
+Type: backup
+[2021-04-16 09:06:06][notice]Start backing up.
+[2021-04-16 09:06:06][notice]server info fcgi:Off max execution time: 900 wp version:5.6.2 php version:7.3.13-2+bionic db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:39,75 MB memory_get_peak_usage:39,88 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2021-04-16 09:06:06][notice]Prepare to backup backup_db files.
+[2021-04-16 09:06:06][notice]Start exporting database.
+[2021-04-16 09:06:06][notice]max_allowed_packet less than 32M :16,00 MB
+[2021-04-16 09:06:06][notice]Preparing to dump table tf_nf3_objects
+[2021-04-16 09:06:06][notice]Preparing to dump table tf_wfConfig
+[2021-04-16 09:06:06][notice]Preparing to dump table tf_revslider_sliders
+[2021-04-16 09:06:06][notice]Preparing to dump table tf_yoast_seo_meta
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_icl_message_status
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_icl_node
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_redirection_logs
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_mcloud_task
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_revslider_css
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_mcloud_task_data
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_mcloud_task_schedule
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_wfSNIPCache
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_wpvivid_scan_result
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_yoast_migrations
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_nf3_actions
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_aiowps_events
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_wfLogins
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_term_relationships
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_comments
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_icl_strings
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_nf3_field_meta
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_icl_string_status
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_yoast_seo_links
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_revslider_navigations
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_revslider_slides
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_redirection_groups
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_aiowps_login_activity
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_icl_string_positions
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_term_taxonomy
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_commentmeta
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_wfLiveTrafficHuman
+[2021-04-16 09:06:07][notice]Preparing to dump table tf_postmeta
+[2021-04-16 09:06:08][notice]Preparing to dump table tf_display_files
+[2021-04-16 09:06:08][notice]Preparing to dump table tf_icl_mo_files_domains
+[2021-04-16 09:06:08][notice]Preparing to dump table tf_aiowps_global_meta
+[2021-04-16 09:06:08][notice]Preparing to dump table tf_icl_string_packages
+[2021-04-16 09:06:08][notice]Preparing to dump table tf_aiowps_failed_logins
+[2021-04-16 09:06:08][notice]Preparing to dump table tf_icl_string_pages
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_icl_locale_map
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_layerslider_revisions
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_yoast_indexable_hierarchy
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_nf3_action_meta
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_wfReverseCache
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_wfPendingIssues
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_redirection_items
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_icl_string_batches
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_layerslider
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_wfFileMods
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_wfLocs
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_nf3_relationships
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_nf3_upgrades
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_icl_content_status
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_links
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_rank_math_redirections_cache
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_wfStatus
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_icl_flags
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_rank_math_sc_analytics
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_wfHits
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_wfls_settings
+[2021-04-16 09:06:18][notice]Preparing to dump table tf_icl_string_translations
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_aiowps_permanent_block
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_usermeta
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_icl_languages_translations
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_rank_math_redirections
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_strong_views
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_terms
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_fileaway_downloads
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_icl_reminders
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_wfNotifications
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_wfIssues
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_posts
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_wfKnownFileList
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_icl_translation_status
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_yoast_indexable
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_aiowps_login_lockdown
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_as3cf_items
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_termmeta
+[2021-04-16 09:06:19][notice]Preparing to dump table tf_nf3_forms
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wfBlockedIPLog
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_rank_math_internal_links
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_rank_math_404_logs
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_translation_batches
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wfTrafficRates
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_yoast_primary_term
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wfFileChanges
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_revslider_static_slides
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_nf3_form_meta
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_users
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_translations
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_core_status
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wpvivid_unused_uploads_files
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wfls_2fa_secrets
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_cms_nav_cache
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_nf3_object_meta
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_red_file_manager
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wfCrawlers
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wfBlocks7
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_options
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_redirection_404
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_translation_downloads
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_revslider_layer_animations
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_nf3_chunks
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wfHoover
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_fileaway_metadata
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_string_urls
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_translate
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_nf3_fields
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_wpfm_backup
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_translate_job
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_icl_languages
+[2021-04-16 09:06:20][notice]Preparing to dump table tf_rank_math_internal_meta
+[2021-04-16 09:06:20][notice]Exporting database finished.
+[2021-04-16 09:06:20][notice]Start compressing backup_db
+[2021-04-16 09:06:20][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_db.zip
+[2021-04-16 09:06:23][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_db.zip, filesize: 11,65 MB
+[2021-04-16 09:06:23][notice]Compressing backup_db completed
+[2021-04-16 09:06:23][notice]Backing up backup_db completed.
+[2021-04-16 09:06:23][notice]Prepare to backup backup_themes files.
+[2021-04-16 09:06:23][notice]File number: 544
+[2021-04-16 09:06:23][notice]Start compressing backup_themes
+[2021-04-16 09:06:23][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_themes.zip
+[2021-04-16 09:06:23][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_themes.zip, filesize: 35,07 MB
+[2021-04-16 09:06:23][notice]Compressing backup_themes completed
+[2021-04-16 09:06:23][notice]Backing up backup_themes completed.
+[2021-04-16 09:06:25][notice]Prepare to backup backup_plugin files.
+[2021-04-16 09:06:25][notice]File number: 18733
+[2021-04-16 09:06:25][notice]Start compressing backup_plugin
+[2021-04-16 09:06:27][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_plugin.part001.zip
+[2021-04-16 09:06:34][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_plugin.part001.zip, filesize: 201,26 MB
+[2021-04-16 09:06:34][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_plugin.part002.zip
+[2021-04-16 09:06:41][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_plugin.part002.zip, filesize: 17,88 MB
+[2021-04-16 09:06:41][notice]Compressing backup_plugin completed
+[2021-04-16 09:06:41][notice]Backing up backup_plugin completed.
+[2021-04-16 09:06:41][notice]Prepare to backup backup_uploads files.
+[2021-04-16 09:06:41][notice]File number: 3616
+[2021-04-16 09:06:41][notice]Start compressing backup_uploads
+[2021-04-16 09:06:42][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_uploads.part001.zip
+[2021-04-16 09:06:46][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_uploads.part001.zip, filesize: 197,83 MB
+[2021-04-16 09:06:46][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_uploads.part002.zip
+[2021-04-16 09:06:52][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_uploads.part002.zip, filesize: 162,40 MB
+[2021-04-16 09:06:52][notice]Compressing backup_uploads completed
+[2021-04-16 09:06:52][notice]Backing up backup_uploads completed.
+[2021-04-16 09:06:52][notice]Prepare to backup backup_content files.
+[2021-04-16 09:06:52][notice]File number: 192
+[2021-04-16 09:06:52][notice]Start compressing backup_content
+[2021-04-16 09:06:52][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_content.zip
+[2021-04-16 09:06:52][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_content.zip, filesize: 9,93 MB
+[2021-04-16 09:06:52][notice]Compressing backup_content completed
+[2021-04-16 09:06:52][notice]Backing up backup_content completed.
+[2021-04-16 09:06:53][notice]Prepare to backup backup_core files.
+[2021-04-16 09:06:53][notice]File number: 3535
+[2021-04-16 09:06:53][notice]Start compressing backup_core
+[2021-04-16 09:06:53][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_core.zip
+[2021-04-16 09:06:57][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_core.zip, filesize: 85,19 MB
+[2021-04-16 09:06:57][notice]Compressing backup_core completed
+[2021-04-16 09:06:57][notice]Backing up backup_core completed.
+[2021-04-16 09:06:57][notice]Prepare to backup backup_merge files.
+[2021-04-16 09:06:57][notice]File number: 8
+[2021-04-16 09:06:57][notice]Start compressing backup_merge
+[2021-04-16 09:06:57][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip
+[2021-04-16 09:07:10][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip, filesize: 57,82 MB
+[2021-04-16 09:07:10][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_plugin.part001.zip
+[2021-04-16 09:07:10][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip
+[2021-04-16 09:07:22][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip, filesize: 180,65 MB
+[2021-04-16 09:07:22][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_uploads.part001.zip
+[2021-04-16 09:07:22][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip
+[2021-04-16 09:07:33][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip, filesize: 150,79 MB
+[2021-04-16 09:07:33][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_uploads.part002.zip
+[2021-04-16 09:07:34][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip
+[2021-04-16 09:07:43][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip, filesize: 70,85 MB
+[2021-04-16 09:07:43][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_core.zip
+[2021-04-16 09:07:43][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_themes.zip
+[2021-04-16 09:07:43][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_plugin.part002.zip
+[2021-04-16 09:07:43][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_db.zip
+[2021-04-16 09:07:43][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_content.zip
+[2021-04-16 09:07:43][notice]Compressing backup_merge completed
+[2021-04-16 09:07:43][notice]Backing up backup_merge completed.
+[2021-04-16 09:07:43][notice]Backup completed.
+[2021-04-16 09:07:43][notice]Backup succeeded.
+[2021-04-16 09:07:43][notice]Start upload.
+[2021-04-16 09:07:43][notice]Connect site 
+[2021-04-16 09:07:43][notice]Start uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip
+[2021-04-16 09:07:44][notice]{"result":"success","file_status":{"status":"start"}}
+[2021-04-16 09:07:44][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 0
+[2021-04-16 09:07:46][notice]finished send chunk
+[2021-04-16 09:07:46][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 2097152
+[2021-04-16 09:07:47][notice]finished send chunk
+[2021-04-16 09:07:47][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 4,00 MB speed:1048.58kb/s
+[2021-04-16 09:07:47][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 4194304
+[2021-04-16 09:07:49][notice]finished send chunk
+[2021-04-16 09:07:49][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 6291456
+[2021-04-16 09:07:51][notice]finished send chunk
+[2021-04-16 09:07:51][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 8,00 MB speed:1048.58kb/s
+[2021-04-16 09:07:51][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 8388608
+[2021-04-16 09:07:52][notice]finished send chunk
+[2021-04-16 09:07:52][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 10485760
+[2021-04-16 09:07:54][notice]finished send chunk
+[2021-04-16 09:07:54][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 12582912
+[2021-04-16 09:07:55][notice]finished send chunk
+[2021-04-16 09:07:55][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 14,00 MB speed:1572.86kb/s
+[2021-04-16 09:07:55][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 14680064
+[2021-04-16 09:07:57][notice]finished send chunk
+[2021-04-16 09:07:57][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 16777216
+[2021-04-16 09:07:58][notice]finished send chunk
+[2021-04-16 09:07:58][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 18874368
+[2021-04-16 09:08:00][notice]finished send chunk
+[2021-04-16 09:08:00][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 20,00 MB speed:1258.29kb/s
+[2021-04-16 09:08:00][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 20971520
+[2021-04-16 09:08:01][notice]finished send chunk
+[2021-04-16 09:08:01][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 23068672
+[2021-04-16 09:08:03][notice]finished send chunk
+[2021-04-16 09:08:03][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 25165824
+[2021-04-16 09:08:04][notice]finished send chunk
+[2021-04-16 09:08:04][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 26,00 MB speed:1572.86kb/s
+[2021-04-16 09:08:04][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 27262976
+[2021-04-16 09:08:06][notice]finished send chunk
+[2021-04-16 09:08:06][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 29360128
+[2021-04-16 09:08:07][notice]finished send chunk
+[2021-04-16 09:08:07][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 31457280
+[2021-04-16 09:08:09][notice]finished send chunk
+[2021-04-16 09:08:09][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 32,00 MB speed:1258.29kb/s
+[2021-04-16 09:08:09][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 33554432
+[2021-04-16 09:08:10][notice]finished send chunk
+[2021-04-16 09:08:10][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 35651584
+[2021-04-16 09:08:12][notice]finished send chunk
+[2021-04-16 09:08:12][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 37748736
+[2021-04-16 09:08:13][notice]finished send chunk
+[2021-04-16 09:08:13][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 38,00 MB speed:1572.86kb/s
+[2021-04-16 09:08:13][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 39845888
+[2021-04-16 09:08:15][notice]finished send chunk
+[2021-04-16 09:08:15][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 41943040
+[2021-04-16 09:08:16][notice]finished send chunk
+[2021-04-16 09:08:16][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 44040192
+[2021-04-16 09:08:18][notice]finished send chunk
+[2021-04-16 09:08:18][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 44,00 MB speed:1258.29kb/s
+[2021-04-16 09:08:18][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 46137344
+[2021-04-16 09:08:19][notice]finished send chunk
+[2021-04-16 09:08:19][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 48234496
+[2021-04-16 09:08:21][notice]finished send chunk
+[2021-04-16 09:08:21][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 50331648
+[2021-04-16 09:08:22][notice]finished send chunk
+[2021-04-16 09:08:22][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 50,00 MB speed:1572.86kb/s
+[2021-04-16 09:08:22][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 52428800
+[2021-04-16 09:08:23][notice]finished send chunk
+[2021-04-16 09:08:23][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 54525952
+[2021-04-16 09:08:25][notice]finished send chunk
+[2021-04-16 09:08:25][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 56623104
+[2021-04-16 09:08:26][notice]finished send chunk
+[2021-04-16 09:08:26][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip Total size: 57,82 MB Uploaded: 56,00 MB speed:1572.86kb/s
+[2021-04-16 09:08:26][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part001.zip offset 58720256
+[2021-04-16 09:08:28][notice]finished send chunk
+[2021-04-16 09:08:28][notice]upload finished
+[2021-04-16 09:08:28][notice]Start uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip
+[2021-04-16 09:08:29][notice]{"result":"success","file_status":{"status":"start"}}
+[2021-04-16 09:08:30][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 0
+[2021-04-16 09:08:31][notice]finished send chunk
+[2021-04-16 09:08:31][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 2097152
+[2021-04-16 09:08:32][notice]finished send chunk
+[2021-04-16 09:08:32][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 4,00 MB speed:1048.58kb/s
+[2021-04-16 09:08:32][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 4194304
+[2021-04-16 09:08:34][notice]finished send chunk
+[2021-04-16 09:08:34][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 6291456
+[2021-04-16 09:08:35][notice]finished send chunk
+[2021-04-16 09:08:35][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 8388608
+[2021-04-16 09:08:37][notice]finished send chunk
+[2021-04-16 09:08:37][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 10,00 MB speed:1258.29kb/s
+[2021-04-16 09:08:37][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 10485760
+[2021-04-16 09:08:38][notice]finished send chunk
+[2021-04-16 09:08:38][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 12582912
+[2021-04-16 09:08:40][notice]finished send chunk
+[2021-04-16 09:08:40][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 14680064
+[2021-04-16 09:08:42][notice]finished send chunk
+[2021-04-16 09:08:42][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 16,00 MB speed:1258.29kb/s
+[2021-04-16 09:08:42][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 16777216
+[2021-04-16 09:08:43][notice]finished send chunk
+[2021-04-16 09:08:43][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 18874368
+[2021-04-16 09:08:44][notice]finished send chunk
+[2021-04-16 09:08:45][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 20971520
+[2021-04-16 09:08:46][notice]finished send chunk
+[2021-04-16 09:08:46][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 22,00 MB speed:1572.86kb/s
+[2021-04-16 09:08:46][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 23068672
+[2021-04-16 09:08:47][notice]finished send chunk
+[2021-04-16 09:08:48][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 25165824
+[2021-04-16 09:08:49][notice]finished send chunk
+[2021-04-16 09:08:49][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 27262976
+[2021-04-16 09:08:50][notice]finished send chunk
+[2021-04-16 09:08:50][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 28,00 MB speed:1572.86kb/s
+[2021-04-16 09:08:51][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 29360128
+[2021-04-16 09:08:52][notice]finished send chunk
+[2021-04-16 09:08:52][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 31457280
+[2021-04-16 09:08:53][notice]finished send chunk
+[2021-04-16 09:08:53][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 33554432
+[2021-04-16 09:08:55][notice]finished send chunk
+[2021-04-16 09:08:55][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 34,00 MB speed:1258.29kb/s
+[2021-04-16 09:08:55][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 35651584
+[2021-04-16 09:08:56][notice]finished send chunk
+[2021-04-16 09:08:56][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 37748736
+[2021-04-16 09:08:58][notice]finished send chunk
+[2021-04-16 09:08:58][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 39845888
+[2021-04-16 09:08:59][notice]finished send chunk
+[2021-04-16 09:08:59][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 40,00 MB speed:1572.86kb/s
+[2021-04-16 09:08:59][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 41943040
+[2021-04-16 09:09:01][notice]finished send chunk
+[2021-04-16 09:09:01][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 44040192
+[2021-04-16 09:09:02][notice]finished send chunk
+[2021-04-16 09:09:02][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 46137344
+[2021-04-16 09:09:04][notice]finished send chunk
+[2021-04-16 09:09:04][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 46,00 MB speed:1258.29kb/s
+[2021-04-16 09:09:04][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 48234496
+[2021-04-16 09:09:05][notice]finished send chunk
+[2021-04-16 09:09:05][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 50331648
+[2021-04-16 09:09:07][notice]finished send chunk
+[2021-04-16 09:09:07][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 52428800
+[2021-04-16 09:09:09][notice]finished send chunk
+[2021-04-16 09:09:09][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 52,00 MB speed:1258.29kb/s
+[2021-04-16 09:09:09][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 54525952
+[2021-04-16 09:09:10][notice]finished send chunk
+[2021-04-16 09:09:10][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 56623104
+[2021-04-16 09:09:12][notice]finished send chunk
+[2021-04-16 09:09:12][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 58720256
+[2021-04-16 09:09:13][notice]finished send chunk
+[2021-04-16 09:09:13][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 58,00 MB speed:1572.86kb/s
+[2021-04-16 09:09:13][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 60817408
+[2021-04-16 09:09:15][notice]finished send chunk
+[2021-04-16 09:09:15][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 62914560
+[2021-04-16 09:09:16][notice]finished send chunk
+[2021-04-16 09:09:16][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 65011712
+[2021-04-16 09:09:17][notice]finished send chunk
+[2021-04-16 09:09:17][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 64,00 MB speed:1572.86kb/s
+[2021-04-16 09:09:18][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 67108864
+[2021-04-16 09:09:19][notice]finished send chunk
+[2021-04-16 09:09:19][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 69206016
+[2021-04-16 09:09:20][notice]finished send chunk
+[2021-04-16 09:09:20][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 71303168
+[2021-04-16 09:09:22][notice]finished send chunk
+[2021-04-16 09:09:22][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 70,00 MB speed:1258.29kb/s
+[2021-04-16 09:09:22][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 73400320
+[2021-04-16 09:09:23][notice]finished send chunk
+[2021-04-16 09:09:23][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 75497472
+[2021-04-16 09:09:25][notice]finished send chunk
+[2021-04-16 09:09:25][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 77594624
+[2021-04-16 09:09:26][notice]finished send chunk
+[2021-04-16 09:09:26][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 76,00 MB speed:1572.86kb/s
+[2021-04-16 09:09:26][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 79691776
+[2021-04-16 09:09:28][notice]finished send chunk
+[2021-04-16 09:09:28][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 81788928
+[2021-04-16 09:09:29][notice]finished send chunk
+[2021-04-16 09:09:29][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 83886080
+[2021-04-16 09:09:31][notice]finished send chunk
+[2021-04-16 09:09:31][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 82,00 MB speed:1258.29kb/s
+[2021-04-16 09:09:31][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 85983232
+[2021-04-16 09:09:32][notice]finished send chunk
+[2021-04-16 09:09:32][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 88080384
+[2021-04-16 09:09:33][notice]finished send chunk
+[2021-04-16 09:09:33][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 90177536
+[2021-04-16 09:09:35][notice]finished send chunk
+[2021-04-16 09:09:35][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 88,00 MB speed:1572.86kb/s
+[2021-04-16 09:09:35][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 92274688
+[2021-04-16 09:09:36][notice]finished send chunk
+[2021-04-16 09:09:37][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 94371840
+[2021-04-16 09:09:38][notice]finished send chunk
+[2021-04-16 09:09:38][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 96468992
+[2021-04-16 09:09:39][notice]finished send chunk
+[2021-04-16 09:09:39][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 94,00 MB speed:1572.86kb/s
+[2021-04-16 09:09:39][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 98566144
+[2021-04-16 09:09:41][notice]finished send chunk
+[2021-04-16 09:09:41][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 100663296
+[2021-04-16 09:09:42][notice]finished send chunk
+[2021-04-16 09:09:42][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 102760448
+[2021-04-16 09:09:44][notice]finished send chunk
+[2021-04-16 09:09:44][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 100,00 MB speed:1258.29kb/s
+[2021-04-16 09:09:44][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 104857600
+[2021-04-16 09:09:45][notice]finished send chunk
+[2021-04-16 09:09:45][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 106954752
+[2021-04-16 09:09:47][notice]finished send chunk
+[2021-04-16 09:09:47][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 109051904
+[2021-04-16 09:09:48][notice]finished send chunk
+[2021-04-16 09:09:48][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 106,00 MB speed:1572.86kb/s
+[2021-04-16 09:09:48][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 111149056
+[2021-04-16 09:09:50][notice]finished send chunk
+[2021-04-16 09:09:50][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 113246208
+[2021-04-16 09:09:51][notice]finished send chunk
+[2021-04-16 09:09:51][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 115343360
+[2021-04-16 09:09:53][notice]finished send chunk
+[2021-04-16 09:09:53][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 112,00 MB speed:1258.29kb/s
+[2021-04-16 09:09:53][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 117440512
+[2021-04-16 09:09:54][notice]finished send chunk
+[2021-04-16 09:09:54][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 119537664
+[2021-04-16 09:09:56][notice]finished send chunk
+[2021-04-16 09:09:56][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 121634816
+[2021-04-16 09:09:57][notice]finished send chunk
+[2021-04-16 09:09:57][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 118,00 MB speed:1572.86kb/s
+[2021-04-16 09:09:57][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 123731968
+[2021-04-16 09:09:59][notice]finished send chunk
+[2021-04-16 09:09:59][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 125829120
+[2021-04-16 09:10:00][notice]finished send chunk
+[2021-04-16 09:10:00][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 127926272
+[2021-04-16 09:10:02][notice]finished send chunk
+[2021-04-16 09:10:02][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 124,00 MB speed:1258.29kb/s
+[2021-04-16 09:10:02][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 130023424
+[2021-04-16 09:10:03][notice]finished send chunk
+[2021-04-16 09:10:03][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 132120576
+[2021-04-16 09:10:05][notice]finished send chunk
+[2021-04-16 09:10:05][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 134217728
+[2021-04-16 09:10:07][notice]finished send chunk
+[2021-04-16 09:10:07][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 130,00 MB speed:1258.29kb/s
+[2021-04-16 09:10:07][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 136314880
+[2021-04-16 09:10:08][notice]finished send chunk
+[2021-04-16 09:10:08][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 138412032
+[2021-04-16 09:10:10][notice]finished send chunk
+[2021-04-16 09:10:10][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 140509184
+[2021-04-16 09:10:11][notice]finished send chunk
+[2021-04-16 09:10:11][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 136,00 MB speed:1572.86kb/s
+[2021-04-16 09:10:11][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 142606336
+[2021-04-16 09:10:12][notice]finished send chunk
+[2021-04-16 09:10:13][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 144703488
+[2021-04-16 09:10:14][notice]finished send chunk
+[2021-04-16 09:10:14][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 146800640
+[2021-04-16 09:10:15][notice]finished send chunk
+[2021-04-16 09:10:15][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 142,00 MB speed:1572.86kb/s
+[2021-04-16 09:10:16][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 148897792
+[2021-04-16 09:10:17][notice]finished send chunk
+[2021-04-16 09:10:17][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 150994944
+[2021-04-16 09:10:18][notice]finished send chunk
+[2021-04-16 09:10:18][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 153092096
+[2021-04-16 09:10:20][notice]finished send chunk
+[2021-04-16 09:10:20][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 148,00 MB speed:1258.29kb/s
+[2021-04-16 09:10:20][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 155189248
+[2021-04-16 09:10:21][notice]finished send chunk
+[2021-04-16 09:10:21][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 157286400
+[2021-04-16 09:10:23][notice]finished send chunk
+[2021-04-16 09:10:23][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 159383552
+[2021-04-16 09:10:24][notice]finished send chunk
+[2021-04-16 09:10:24][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 154,00 MB speed:1572.86kb/s
+[2021-04-16 09:10:24][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 161480704
+[2021-04-16 09:10:26][notice]finished send chunk
+[2021-04-16 09:10:26][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 163577856
+[2021-04-16 09:10:27][notice]finished send chunk
+[2021-04-16 09:10:27][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 165675008
+[2021-04-16 09:10:29][notice]finished send chunk
+[2021-04-16 09:10:29][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 160,00 MB speed:1258.29kb/s
+[2021-04-16 09:10:29][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 167772160
+[2021-04-16 09:10:30][notice]finished send chunk
+[2021-04-16 09:10:30][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 169869312
+[2021-04-16 09:10:32][notice]finished send chunk
+[2021-04-16 09:10:32][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 171966464
+[2021-04-16 09:10:33][notice]finished send chunk
+[2021-04-16 09:10:33][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 166,00 MB speed:1572.86kb/s
+[2021-04-16 09:10:33][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 174063616
+[2021-04-16 09:10:35][notice]finished send chunk
+[2021-04-16 09:10:35][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 176160768
+[2021-04-16 09:10:36][notice]finished send chunk
+[2021-04-16 09:10:36][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 178257920
+[2021-04-16 09:10:38][notice]finished send chunk
+[2021-04-16 09:10:38][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 172,00 MB speed:1258.29kb/s
+[2021-04-16 09:10:38][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 180355072
+[2021-04-16 09:10:39][notice]finished send chunk
+[2021-04-16 09:10:39][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 182452224
+[2021-04-16 09:10:41][notice]finished send chunk
+[2021-04-16 09:10:41][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 184549376
+[2021-04-16 09:10:42][notice]finished send chunk
+[2021-04-16 09:10:42][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip Total size: 180,65 MB Uploaded: 178,00 MB speed:1572.86kb/s
+[2021-04-16 09:10:42][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 186646528
+[2021-04-16 09:10:44][notice]finished send chunk
+[2021-04-16 09:10:44][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part002.zip offset 188743680
+[2021-04-16 09:10:45][notice]finished send chunk
+[2021-04-16 09:10:45][notice]upload finished
+[2021-04-16 09:10:45][notice]Start uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip
+[2021-04-16 09:10:46][notice]{"result":"success","file_status":{"status":"start"}}
+[2021-04-16 09:10:46][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 0
+[2021-04-16 09:10:48][notice]finished send chunk
+[2021-04-16 09:10:48][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 2097152
+[2021-04-16 09:10:49][notice]finished send chunk
+[2021-04-16 09:10:49][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 4,00 MB speed:1048.58kb/s
+[2021-04-16 09:10:49][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 4194304
+[2021-04-16 09:10:51][notice]finished send chunk
+[2021-04-16 09:10:51][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 6291456
+[2021-04-16 09:10:52][notice]finished send chunk
+[2021-04-16 09:10:52][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 8388608
+[2021-04-16 09:10:53][notice]finished send chunk
+[2021-04-16 09:10:53][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 10,00 MB speed:1572.86kb/s
+[2021-04-16 09:10:54][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 10485760
+[2021-04-16 09:10:55][notice]finished send chunk
+[2021-04-16 09:10:55][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 12582912
+[2021-04-16 09:10:56][notice]finished send chunk
+[2021-04-16 09:10:57][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 14680064
+[2021-04-16 09:10:58][notice]finished send chunk
+[2021-04-16 09:10:58][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 16,00 MB speed:1258.29kb/s
+[2021-04-16 09:10:58][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 16777216
+[2021-04-16 09:11:00][notice]finished send chunk
+[2021-04-16 09:11:00][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 18874368
+[2021-04-16 09:11:01][notice]finished send chunk
+[2021-04-16 09:11:01][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 20971520
+[2021-04-16 09:11:02][notice]finished send chunk
+[2021-04-16 09:11:02][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 22,00 MB speed:1572.86kb/s
+[2021-04-16 09:11:03][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 23068672
+[2021-04-16 09:11:04][notice]finished send chunk
+[2021-04-16 09:11:04][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 25165824
+[2021-04-16 09:11:05][notice]finished send chunk
+[2021-04-16 09:11:05][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 27262976
+[2021-04-16 09:11:07][notice]finished send chunk
+[2021-04-16 09:11:07][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 28,00 MB speed:1258.29kb/s
+[2021-04-16 09:11:07][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 29360128
+[2021-04-16 09:11:09][notice]finished send chunk
+[2021-04-16 09:11:09][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 31457280
+[2021-04-16 09:11:10][notice]finished send chunk
+[2021-04-16 09:11:10][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 33554432
+[2021-04-16 09:11:11][notice]finished send chunk
+[2021-04-16 09:11:11][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 34,00 MB speed:1572.86kb/s
+[2021-04-16 09:11:11][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 35651584
+[2021-04-16 09:11:13][notice]finished send chunk
+[2021-04-16 09:11:13][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 37748736
+[2021-04-16 09:11:14][notice]finished send chunk
+[2021-04-16 09:11:14][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 39845888
+[2021-04-16 09:11:16][notice]finished send chunk
+[2021-04-16 09:11:16][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 40,00 MB speed:1258.29kb/s
+[2021-04-16 09:11:16][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 41943040
+[2021-04-16 09:11:17][notice]finished send chunk
+[2021-04-16 09:11:17][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 44040192
+[2021-04-16 09:11:19][notice]finished send chunk
+[2021-04-16 09:11:19][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 46137344
+[2021-04-16 09:11:20][notice]finished send chunk
+[2021-04-16 09:11:20][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 46,00 MB speed:1572.86kb/s
+[2021-04-16 09:11:20][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 48234496
+[2021-04-16 09:11:22][notice]finished send chunk
+[2021-04-16 09:11:22][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 50331648
+[2021-04-16 09:11:23][notice]finished send chunk
+[2021-04-16 09:11:23][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 52428800
+[2021-04-16 09:11:25][notice]finished send chunk
+[2021-04-16 09:11:25][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 52,00 MB speed:1258.29kb/s
+[2021-04-16 09:11:25][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 54525952
+[2021-04-16 09:11:26][notice]finished send chunk
+[2021-04-16 09:11:26][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 56623104
+[2021-04-16 09:11:28][notice]finished send chunk
+[2021-04-16 09:11:28][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 58720256
+[2021-04-16 09:11:29][notice]finished send chunk
+[2021-04-16 09:11:29][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 58,00 MB speed:1572.86kb/s
+[2021-04-16 09:11:29][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 60817408
+[2021-04-16 09:11:30][notice]finished send chunk
+[2021-04-16 09:11:31][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 62914560
+[2021-04-16 09:11:32][notice]finished send chunk
+[2021-04-16 09:11:32][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 65011712
+[2021-04-16 09:11:34][notice]finished send chunk
+[2021-04-16 09:11:34][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 64,00 MB speed:1258.29kb/s
+[2021-04-16 09:11:34][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 67108864
+[2021-04-16 09:11:35][notice]finished send chunk
+[2021-04-16 09:11:35][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 69206016
+[2021-04-16 09:11:37][notice]finished send chunk
+[2021-04-16 09:11:37][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 71303168
+[2021-04-16 09:11:38][notice]finished send chunk
+[2021-04-16 09:11:38][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 70,00 MB speed:1572.86kb/s
+[2021-04-16 09:11:38][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 73400320
+[2021-04-16 09:11:40][notice]finished send chunk
+[2021-04-16 09:11:40][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 75497472
+[2021-04-16 09:11:41][notice]finished send chunk
+[2021-04-16 09:11:41][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 77594624
+[2021-04-16 09:11:43][notice]finished send chunk
+[2021-04-16 09:11:43][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 76,00 MB speed:1258.29kb/s
+[2021-04-16 09:11:43][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 79691776
+[2021-04-16 09:11:44][notice]finished send chunk
+[2021-04-16 09:11:44][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 81788928
+[2021-04-16 09:11:46][notice]finished send chunk
+[2021-04-16 09:11:46][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 83886080
+[2021-04-16 09:11:47][notice]finished send chunk
+[2021-04-16 09:11:47][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 82,00 MB speed:1572.86kb/s
+[2021-04-16 09:11:47][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 85983232
+[2021-04-16 09:11:49][notice]finished send chunk
+[2021-04-16 09:11:49][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 88080384
+[2021-04-16 09:11:50][notice]finished send chunk
+[2021-04-16 09:11:50][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 90177536
+[2021-04-16 09:11:52][notice]finished send chunk
+[2021-04-16 09:11:52][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 88,00 MB speed:1258.29kb/s
+[2021-04-16 09:11:52][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 92274688
+[2021-04-16 09:11:53][notice]finished send chunk
+[2021-04-16 09:11:53][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 94371840
+[2021-04-16 09:11:55][notice]finished send chunk
+[2021-04-16 09:11:55][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 96468992
+[2021-04-16 09:11:56][notice]finished send chunk
+[2021-04-16 09:11:56][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 94,00 MB speed:1572.86kb/s
+[2021-04-16 09:11:56][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 98566144
+[2021-04-16 09:11:57][notice]finished send chunk
+[2021-04-16 09:11:58][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 100663296
+[2021-04-16 09:11:59][notice]finished send chunk
+[2021-04-16 09:11:59][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 102760448
+[2021-04-16 09:12:00][notice]finished send chunk
+[2021-04-16 09:12:00][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 100,00 MB speed:1572.86kb/s
+[2021-04-16 09:12:00][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 104857600
+[2021-04-16 09:12:02][notice]finished send chunk
+[2021-04-16 09:12:02][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 106954752
+[2021-04-16 09:12:03][notice]finished send chunk
+[2021-04-16 09:12:03][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 109051904
+[2021-04-16 09:12:05][notice]finished send chunk
+[2021-04-16 09:12:05][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 106,00 MB speed:1258.29kb/s
+[2021-04-16 09:12:05][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 111149056
+[2021-04-16 09:12:06][notice]finished send chunk
+[2021-04-16 09:12:06][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 113246208
+[2021-04-16 09:12:08][notice]finished send chunk
+[2021-04-16 09:12:08][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 115343360
+[2021-04-16 09:12:09][notice]finished send chunk
+[2021-04-16 09:12:09][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 112,00 MB speed:1572.86kb/s
+[2021-04-16 09:12:09][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 117440512
+[2021-04-16 09:12:11][notice]finished send chunk
+[2021-04-16 09:12:11][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 119537664
+[2021-04-16 09:12:12][notice]finished send chunk
+[2021-04-16 09:12:12][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 121634816
+[2021-04-16 09:12:14][notice]finished send chunk
+[2021-04-16 09:12:14][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 118,00 MB speed:1258.29kb/s
+[2021-04-16 09:12:14][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 123731968
+[2021-04-16 09:12:15][notice]finished send chunk
+[2021-04-16 09:12:15][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 125829120
+[2021-04-16 09:12:17][notice]finished send chunk
+[2021-04-16 09:12:17][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 127926272
+[2021-04-16 09:12:18][notice]finished send chunk
+[2021-04-16 09:12:18][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 124,00 MB speed:1572.86kb/s
+[2021-04-16 09:12:18][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 130023424
+[2021-04-16 09:12:20][notice]finished send chunk
+[2021-04-16 09:12:20][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 132120576
+[2021-04-16 09:12:21][notice]finished send chunk
+[2021-04-16 09:12:21][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 134217728
+[2021-04-16 09:12:23][notice]finished send chunk
+[2021-04-16 09:12:23][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 130,00 MB speed:1258.29kb/s
+[2021-04-16 09:12:23][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 136314880
+[2021-04-16 09:12:24][notice]finished send chunk
+[2021-04-16 09:12:24][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 138412032
+[2021-04-16 09:12:26][notice]finished send chunk
+[2021-04-16 09:12:26][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 140509184
+[2021-04-16 09:12:27][notice]finished send chunk
+[2021-04-16 09:12:27][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 136,00 MB speed:1572.86kb/s
+[2021-04-16 09:12:27][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 142606336
+[2021-04-16 09:12:29][notice]finished send chunk
+[2021-04-16 09:12:29][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 144703488
+[2021-04-16 09:12:30][notice]finished send chunk
+[2021-04-16 09:12:30][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 146800640
+[2021-04-16 09:12:32][notice]finished send chunk
+[2021-04-16 09:12:32][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 142,00 MB speed:1258.29kb/s
+[2021-04-16 09:12:32][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 148897792
+[2021-04-16 09:12:33][notice]finished send chunk
+[2021-04-16 09:12:33][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 150994944
+[2021-04-16 09:12:35][notice]finished send chunk
+[2021-04-16 09:12:35][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 153092096
+[2021-04-16 09:12:36][notice]finished send chunk
+[2021-04-16 09:12:36][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip Total size: 150,79 MB Uploaded: 148,00 MB speed:1572.86kb/s
+[2021-04-16 09:12:36][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 155189248
+[2021-04-16 09:12:38][notice]finished send chunk
+[2021-04-16 09:12:38][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part003.zip offset 157286400
+[2021-04-16 09:12:39][notice]finished send chunk
+[2021-04-16 09:12:39][notice]upload finished
+[2021-04-16 09:12:39][notice]Start uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip
+[2021-04-16 09:12:40][notice]{"result":"success","file_status":{"status":"start"}}
+[2021-04-16 09:12:40][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 0
+[2021-04-16 09:12:41][notice]finished send chunk
+[2021-04-16 09:12:41][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 2097152
+[2021-04-16 09:12:43][notice]finished send chunk
+[2021-04-16 09:12:43][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 4,00 MB speed:1048.58kb/s
+[2021-04-16 09:12:43][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 4194304
+[2021-04-16 09:12:44][notice]finished send chunk
+[2021-04-16 09:12:44][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 6291456
+[2021-04-16 09:12:46][notice]finished send chunk
+[2021-04-16 09:12:46][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 8388608
+[2021-04-16 09:12:48][notice]finished send chunk
+[2021-04-16 09:12:48][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 10,00 MB speed:1258.29kb/s
+[2021-04-16 09:12:48][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 10485760
+[2021-04-16 09:12:50][notice]finished send chunk
+[2021-04-16 09:12:50][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 12582912
+[2021-04-16 09:12:51][notice]finished send chunk
+[2021-04-16 09:12:51][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 14680064
+[2021-04-16 09:12:53][notice]finished send chunk
+[2021-04-16 09:12:53][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 16,00 MB speed:1258.29kb/s
+[2021-04-16 09:12:53][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 16777216
+[2021-04-16 09:12:54][notice]finished send chunk
+[2021-04-16 09:12:54][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 18874368
+[2021-04-16 09:12:56][notice]finished send chunk
+[2021-04-16 09:12:56][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 20971520
+[2021-04-16 09:12:57][notice]finished send chunk
+[2021-04-16 09:12:57][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 22,00 MB speed:1572.86kb/s
+[2021-04-16 09:12:57][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 23068672
+[2021-04-16 09:12:59][notice]finished send chunk
+[2021-04-16 09:12:59][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 25165824
+[2021-04-16 09:13:00][notice]finished send chunk
+[2021-04-16 09:13:00][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 27262976
+[2021-04-16 09:13:02][notice]finished send chunk
+[2021-04-16 09:13:02][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 28,00 MB speed:1258.29kb/s
+[2021-04-16 09:13:02][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 29360128
+[2021-04-16 09:13:03][notice]finished send chunk
+[2021-04-16 09:13:03][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 31457280
+[2021-04-16 09:13:05][notice]finished send chunk
+[2021-04-16 09:13:05][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 33554432
+[2021-04-16 09:13:06][notice]finished send chunk
+[2021-04-16 09:13:06][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 34,00 MB speed:1572.86kb/s
+[2021-04-16 09:13:06][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 35651584
+[2021-04-16 09:13:07][notice]finished send chunk
+[2021-04-16 09:13:08][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 37748736
+[2021-04-16 09:13:09][notice]finished send chunk
+[2021-04-16 09:13:09][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 39845888
+[2021-04-16 09:13:10][notice]finished send chunk
+[2021-04-16 09:13:10][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 40,00 MB speed:1572.86kb/s
+[2021-04-16 09:13:10][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 41943040
+[2021-04-16 09:13:12][notice]finished send chunk
+[2021-04-16 09:13:12][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 44040192
+[2021-04-16 09:13:13][notice]finished send chunk
+[2021-04-16 09:13:13][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 46137344
+[2021-04-16 09:13:15][notice]finished send chunk
+[2021-04-16 09:13:15][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 46,00 MB speed:1258.29kb/s
+[2021-04-16 09:13:15][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 48234496
+[2021-04-16 09:13:16][notice]finished send chunk
+[2021-04-16 09:13:16][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 50331648
+[2021-04-16 09:13:18][notice]finished send chunk
+[2021-04-16 09:13:18][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 52428800
+[2021-04-16 09:13:19][notice]finished send chunk
+[2021-04-16 09:13:19][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 52,00 MB speed:1572.86kb/s
+[2021-04-16 09:13:19][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 54525952
+[2021-04-16 09:13:21][notice]finished send chunk
+[2021-04-16 09:13:21][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 56623104
+[2021-04-16 09:13:22][notice]finished send chunk
+[2021-04-16 09:13:22][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 58720256
+[2021-04-16 09:13:23][notice]finished send chunk
+[2021-04-16 09:13:23][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 58,00 MB speed:1572.86kb/s
+[2021-04-16 09:13:24][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 60817408
+[2021-04-16 09:13:25][notice]finished send chunk
+[2021-04-16 09:13:25][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 62914560
+[2021-04-16 09:13:27][notice]finished send chunk
+[2021-04-16 09:13:27][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 65011712
+[2021-04-16 09:13:28][notice]finished send chunk
+[2021-04-16 09:13:28][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 64,00 MB speed:1572.86kb/s
+[2021-04-16 09:13:28][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 67108864
+[2021-04-16 09:13:29][notice]finished send chunk
+[2021-04-16 09:13:29][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 69206016
+[2021-04-16 09:13:31][notice]finished send chunk
+[2021-04-16 09:13:31][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 71303168
+[2021-04-16 09:13:32][notice]finished send chunk
+[2021-04-16 09:13:32][notice]Uploading www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip Total size: 70,85 MB Uploaded: 70,00 MB speed:1572.86kb/s
+[2021-04-16 09:13:32][notice]send chunk www.tariefchecker.be_wpvivid-6079537bad800_2021-04-16-10-06_backup_all.part004.zip offset 73400320
+[2021-04-16 09:13:34][notice]finished send chunk
+[2021-04-16 09:13:34][notice]upload finished
+[2021-04-16 09:13:35][notice]Cleaned up local files after uploading to remote storages.
+[2021-04-16 09:13:35][notice]Upload succeeded.
+[2021-04-16 09:13:35][notice]Upload finished. Delete task wpvivid-6079537bad800

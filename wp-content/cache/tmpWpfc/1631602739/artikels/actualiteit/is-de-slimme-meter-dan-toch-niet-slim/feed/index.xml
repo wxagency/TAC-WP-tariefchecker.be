@@ -1,0 +1,8 @@
+<error>
+    <code>wp_die</code>
+    <title><![CDATA[WordPress &amp;rsaquo; fout]]></title>
+    <message><![CDATA[No feed available,please visit our &lt;a href=&quot;https://www.tariefchecker.be&quot;&gt;homepage&lt;/a&gt;!]]></message>
+    <data>
+        <status>500</status>
+    </data>
+</error>

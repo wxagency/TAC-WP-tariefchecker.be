@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700');
+
+.snip1214 {
+  text-align: center;
+  width: 100%;
+}
+.entry-image a{
+  height: auto !important;
+}
+.borderright{border-right: 1px solid #4286BD;}
+.snip1214 .plan .plancontainer{margin:20px 0;padding: 0px 5%;}
+
+.snip1214 .plan:first-child {
+    border-left: 1px solid #4286BD;
+    border-right: none;
+    -moz-border-radius: 8px 0px 0px 8px;
+    -webkit-border-radius: 8px 0px 0px 8px;
+    border-radius: 8px 0px 0px 8px;
+}
+.snip1214 .plan:last-child {
+  border-right: 1px solid #4286BD;
+}
+.snip1214 .plan {
+  margin: 46px 0;
+  width: 25%;
+  position: relative;
+  float: left;
+  border-top: 1px solid #4286BD;
+  border-bottom: 1px solid #4286BD;
+  background-color: #F2F4FA;
+}
+.snip1214 .plan:last-child{
+  -moz-border-radius: 0px 8px 8px 0px;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  border-radius: 0px 8px 8px 0px;
+}
+.snip1214 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1214 header {
+  position: relative;
+}
+.snip1214 .plan-title {
+  position: relative;
+  top: 0;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 0 auto;
+  margin: 0;
+  background-color: #4286BD;
+  color: #ffffff;
+  text-transform: uppercase;
+  -moz-border-radius: 8px 8px 0px 0px;
+  -webkit-border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
+}
+.snip1214 .plan-subtitle,
+.snip1214 .plan-productname {
+  font-weight: bold;
+  font-size:24px;
+  line-height:30px;
+  height:90px;
+  overflow: hidden;
+}
+.snip1214 .plan-productname {height:90px;}
+
+.plan-image{
+    margin: 10px 0 20px 0;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snip1214 .plan-type {
+  opacity: 0.6;
+}
+.snip1214 .plan-features {
+  padding: 0;
+  margin: 10px 0;
+  text-align: center;
+  list-style: outside none none;
+  min-height: 60px;
+}
+.snip1214 .plan-features{
+  padding: 5px 5%;
+  font-weight:bold;
+  font-size:1em;
+  line-height: 16px;
+}
+.snip1214 .plan-features i {
+  margin-right: 8px;
+  opacity: 0.4;
+}
+.plan-select {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*.snip1214 .plan-select a:hover,
+a.redbtn:hover {
+  background-color: #46627f;
+}*/
+.snip1214 .featured {
+  margin:0;
+  z-index: 1;
+  border:3px solid #4286BD;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  padding-bottom:10px;
+  background-color:#FFF;
+}
+.snip1214 .featured.plan .plan-title{margin-bottom:20px;font-size:20px;text-transform:uppercase;}
+.snip1214 .featured.plan .plan-subtitle{color:#4286BD;}
+
+.plan-calculate a{font-size:14px;}
+form.post-password-form{
+    text-align: center;
+    margin: 20px;
+}
+/*
+@media only screen and (max-width: 767px) {
+  .snip1214 .plan {
+    width: 50%;
+  }
+  .snip1214 .plan-title,
+  .snip1214 .plan-select a {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .snip1214 .plan-productname,
+  .snip1214 .plan-subtitle,
+  .snip1214 .featured .plan-subtitle {
+    padding: 20px 10px 20px;
+  }
+  .snip1214 .plan-select,
+  .snip1214 .featured .plan-select {
+    padding: 10px 10px 10px;
+  }
+  .snip1214 .featured {
+    margin-top: 0;
+  }
+}
+*/
+@media only screen and (max-width: 1200px) {
+  /*.start_now input[type="submit"], .redbtn, .bluebtn{
+    width:auto !important;
+    font-size:1em !important;
+    height:auto !important;
+    line-height: 1em !important;
+  }*/
+  .plan-features{font-size:12px;}
+  .snip1214 .plan-subtitle, .snip1214 .plan-productname{font-size:18px !important;}
+}
+@media only screen and (max-width: 992px){
+  .snip1214 .plan {
+    width: 100%;
+  }
+  .borderright{border:none;}
+  .snip1214 .plan,
+  .snip1214 .plan:first-child,
+  .snip1214 .plan:last-child {
+      border: 1px solid #4286BD;
+      -moz-border-radius: 8px 8px 8px 8px;
+      -webkit-border-radius: 8px 8px 8px 8px;
+      border-radius: 8px 8px 8px 8px;
+  }
+  .snip1214 .plan{margin:10px 0;}
+  .snip1214 .plan-subtitle, .snip1214 .plan-productname{height:auto;}
+  .plan-select{margin-bottom:20px;}
+}

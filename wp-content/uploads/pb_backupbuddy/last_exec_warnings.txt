@@ -1,0 +1,27 @@
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/css/
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/css/fonts/
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/css/fonts/statics/
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/css/fonts/statics/flaticon.svg
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/css/fonts/statics/flaticon.eot
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/css/fonts/statics/flaticon.woff
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/css/fonts/statics/flaticon.ttf
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/languages/wp-fastest-cache-es_ES.mo
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/languages/wp-fastest-cache-es_AR.po
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/languages/wp-fastest-cache-de_DE.mo
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/languages/wp-fastest-cache-tr_TR.po
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/languages/wp-fastest-cache-sk_SK.po
+WARNING: (general problem as indicated): zip warning: Broken pipe
+WARNING: (file unreadable or does not exist): zip warning: could not open for reading: wp-content/plugins/wp-fastest-cacheo/languages/wp-fastest-cache-sv_SE.po
+WARNING: (general problem as indicated): zip warning: Not all files were readable

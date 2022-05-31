@@ -1,0 +1,186 @@
+Log created: 2021-08-04 06:09:18
+Type: backup
+[2021-08-04 06:09:22][notice]Start backing up.
+[2021-08-04 06:09:22][notice]server info fcgi:Off max execution time: 900 wp version:5.6.2 php version:7.3.13-2+bionic db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:39,89 MB memory_get_peak_usage:40,03 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2021-08-04 06:09:22][notice]Prepare to backup backup_db files.
+[2021-08-04 06:09:22][notice]Start exporting database.
+[2021-08-04 06:09:22][notice]max_allowed_packet less than 32M :16,00 MB
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_nf3_objects
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_wfConfig
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_revslider_sliders
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_yoast_seo_meta
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_icl_message_status
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_icl_node
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_redirection_logs
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_mcloud_task
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_revslider_css
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_mcloud_task_data
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_mcloud_task_schedule
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_wfSNIPCache
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_wpvivid_scan_result
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_yoast_migrations
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_nf3_actions
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_aiowps_events
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_wfLogins
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_term_relationships
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_comments
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_icl_strings
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_nf3_field_meta
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_icl_string_status
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_yoast_seo_links
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_revslider_navigations
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_revslider_slides
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_redirection_groups
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_aiowps_login_activity
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_icl_string_positions
+[2021-08-04 06:09:22][notice]Preparing to dump table tf_term_taxonomy
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_commentmeta
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_wfLiveTrafficHuman
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_postmeta
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_display_files
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_icl_mo_files_domains
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_aiowps_global_meta
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_icl_string_packages
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_aiowps_failed_logins
+[2021-08-04 06:09:23][notice]Preparing to dump table tf_icl_string_pages
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_icl_locale_map
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_layerslider_revisions
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_yoast_indexable_hierarchy
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_nf3_action_meta
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_wfReverseCache
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_wfPendingIssues
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_redirection_items
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_icl_string_batches
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_layerslider
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_wfFileMods
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_wfLocs
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_nf3_relationships
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_nf3_upgrades
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_icl_content_status
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_links
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_rank_math_redirections_cache
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_wfStatus
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_icl_flags
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_rank_math_sc_analytics
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_wfHits
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_wfls_settings
+[2021-08-04 06:09:27][notice]Preparing to dump table tf_icl_string_translations
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_aiowps_permanent_block
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_usermeta
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_icl_languages_translations
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_rank_math_redirections
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_strong_views
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_terms
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_fileaway_downloads
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_icl_reminders
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_wfNotifications
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_wfIssues
+[2021-08-04 06:09:28][notice]Preparing to dump table tf_posts
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wfKnownFileList
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_translation_status
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_yoast_indexable
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_aiowps_login_lockdown
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_as3cf_items
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_termmeta
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_nf3_forms
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wfBlockedIPLog
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_rank_math_internal_links
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_rank_math_404_logs
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_translation_batches
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wfTrafficRates
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_yoast_primary_term
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wfFileChanges
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_revslider_static_slides
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_nf3_form_meta
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_users
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_translations
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_core_status
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wpvivid_unused_uploads_files
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wfls_2fa_secrets
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_cms_nav_cache
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_nf3_object_meta
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_red_file_manager
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wfCrawlers
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wfBlocks7
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_options
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_redirection_404
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_translation_downloads
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_revslider_layer_animations
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_nf3_chunks
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wfHoover
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_fileaway_metadata
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_string_urls
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_translate
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_nf3_fields
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_wpfm_backup
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_translate_job
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_icl_languages
+[2021-08-04 06:09:29][notice]Preparing to dump table tf_rank_math_internal_meta
+[2021-08-04 06:09:29][notice]Exporting database finished.
+[2021-08-04 06:09:29][notice]Start compressing backup_db
+[2021-08-04 06:09:29][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_db.zip
+[2021-08-04 06:09:32][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_db.zip, filesize: 11,82 MB
+[2021-08-04 06:09:32][notice]Compressing backup_db completed
+[2021-08-04 06:09:32][notice]Backing up backup_db completed.
+[2021-08-04 06:09:32][notice]Prepare to backup backup_themes files.
+[2021-08-04 06:09:32][notice]File number: 544
+[2021-08-04 06:09:32][notice]Start compressing backup_themes
+[2021-08-04 06:09:32][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_themes.zip
+[2021-08-04 06:09:32][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_themes.zip, filesize: 35,07 MB
+[2021-08-04 06:09:32][notice]Compressing backup_themes completed
+[2021-08-04 06:09:32][notice]Backing up backup_themes completed.
+[2021-08-04 06:09:34][notice]Prepare to backup backup_plugin files.
+[2021-08-04 06:09:34][notice]File number: 19660
+[2021-08-04 06:09:34][notice]Start compressing backup_plugin
+[2021-08-04 06:09:49][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_plugin.part001.zip
+[2021-08-04 06:09:58][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_plugin.part001.zip, filesize: 201,03 MB
+[2021-08-04 06:09:58][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_plugin.part002.zip
+[2021-08-04 06:10:11][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_plugin.part002.zip, filesize: 25,51 MB
+[2021-08-04 06:10:11][notice]Compressing backup_plugin completed
+[2021-08-04 06:10:11][notice]Backing up backup_plugin completed.
+[2021-08-04 06:10:11][notice]Prepare to backup backup_uploads files.
+[2021-08-04 06:10:11][notice]File number: 3640
+[2021-08-04 06:10:11][notice]Start compressing backup_uploads
+[2021-08-04 06:10:11][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_uploads.part001.zip
+[2021-08-04 06:10:16][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_uploads.part001.zip, filesize: 197,63 MB
+[2021-08-04 06:10:16][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_uploads.part002.zip
+[2021-08-04 06:10:21][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_uploads.part002.zip, filesize: 171,49 MB
+[2021-08-04 06:10:21][notice]Compressing backup_uploads completed
+[2021-08-04 06:10:21][notice]Backing up backup_uploads completed.
+[2021-08-04 06:10:21][notice]Prepare to backup backup_content files.
+[2021-08-04 06:10:21][notice]File number: 194
+[2021-08-04 06:10:21][notice]Start compressing backup_content
+[2021-08-04 06:10:21][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_content.zip
+[2021-08-04 06:10:22][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_content.zip, filesize: 10,00 MB
+[2021-08-04 06:10:22][notice]Compressing backup_content completed
+[2021-08-04 06:10:22][notice]Backing up backup_content completed.
+[2021-08-04 06:10:23][notice]Prepare to backup backup_core files.
+[2021-08-04 06:10:23][notice]File number: 1811
+[2021-08-04 06:10:23][notice]Start compressing backup_core
+[2021-08-04 06:10:23][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_core.zip
+[2021-08-04 06:10:25][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_core.zip, filesize: 43,56 MB
+[2021-08-04 06:10:25][notice]Compressing backup_core completed
+[2021-08-04 06:10:25][notice]Backing up backup_core completed.
+[2021-08-04 06:10:25][notice]Prepare to backup backup_merge files.
+[2021-08-04 06:10:25][notice]File number: 8
+[2021-08-04 06:10:25][notice]Start compressing backup_merge
+[2021-08-04 06:10:25][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_all.part001.zip
+[2021-08-04 06:10:37][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_all.part001.zip, filesize: 57,06 MB
+[2021-08-04 06:10:37][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_plugin.part001.zip
+[2021-08-04 06:10:37][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_all.part002.zip
+[2021-08-04 06:10:50][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_all.part002.zip, filesize: 174,16 MB
+[2021-08-04 06:10:50][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_uploads.part001.zip
+[2021-08-04 06:10:50][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_all.part003.zip
+[2021-08-04 06:11:02][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_all.part003.zip, filesize: 159,44 MB
+[2021-08-04 06:11:02][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_uploads.part002.zip
+[2021-08-04 06:11:02][notice]Prepare to zip files. file: www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_all.part004.zip
+[2021-08-04 06:11:08][notice]Adding zip files completed.www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_all.part004.zip, filesize: 64,45 MB
+[2021-08-04 06:11:08][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_core.zip
+[2021-08-04 06:11:08][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_themes.zip
+[2021-08-04 06:11:08][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_plugin.part002.zip
+[2021-08-04 06:11:08][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_db.zip
+[2021-08-04 06:11:08][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/www.tariefchecker.be_wpvivid-610a2f0eeca73_2021-08-04-07-09_backup_content.zip
+[2021-08-04 06:11:08][notice]Compressing backup_merge completed
+[2021-08-04 06:11:08][notice]Backing up backup_merge completed.
+[2021-08-04 06:11:08][notice]Backup completed.
+[2021-08-04 06:11:08][notice]Backup succeeded.

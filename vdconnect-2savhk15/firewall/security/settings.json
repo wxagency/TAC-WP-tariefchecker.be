@@ -1,0 +1,25 @@
+{
+    "urllists": {
+        "w": [
+            "/wp-json/wc-analytics/",
+            "/wp-content/plugins/ajax-search-for-woocommerce-premium/",
+            "/wp-content/uploads/brizy/",
+            "/wp-admin/admin-ajax.php",
+            "/?wc-ajax=",
+            "/checkout",
+            "/wp-admin/async-upload.php",
+            "/tag/",
+            "/wp-admin/update.php",
+            "/wireframe-footer/"
+        ],
+        "b": []
+    },
+    "iplists": {
+        "w": [],
+        "b": []
+    },
+    "paramslists": {
+        "user": [],
+        "base": []
+    }
+}

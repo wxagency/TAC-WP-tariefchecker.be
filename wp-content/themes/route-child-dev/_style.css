@@ -1,0 +1,318 @@
+/*
+  Theme Name:   Route Child
+  Theme URI:    http://routewp.com/
+  Author:       Codestar
+  Author URI:   http://codestar.me/
+  Description:  Route Multi-Purpose WordPress Theme by a Elite Author
+  Version:      5.3
+  License:      GNU General Public License v2 or later
+  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+  Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+  Text Domain:  route
+  Template:     route
+*/
+@import url("../route/style.css");
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('plan.css');
+
+h1, h2, h3, h4, h5, h6, .titel {
+    font-family: 'Maven Pro', sans-serif;
+    color: #414D4D;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+h1,h2,
+a, a:visited,
+thead{color:#439CEF;}
+
+h5, h6{font-weight: 700 !important;}
+
+table{background-color: #FFF;border:1px solid #D2E7FB; border-right:none;border-left:none;}
+table thead th{text-transform: uppercase;}
+table thead td{text-align: center;}
+table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td{border:none;border-bottom:1px solid #D5E9FB;text-align:center;padding:10px 0;}
+
+.dark{color:#414D4D!important;border-color:#414D4D;}
+.red{color:#E83F48!important;border-color:#E83F48;}
+
+
+
+#main{overflow-x:hidden;overflow-y: auto;}
+#main a, #main a:link, #main a:visited, #main a:hover{text-decoration: underline;}
+
+#page-header{background:#428bca url('/wp-content/uploads/2017/12/electric_blue-1.jpg') no-repeat bottom center;background-attachment: fixed;}
+
+.align-right{text-align:right;}
+
+/* wp-includes/class-wp-widget-recent-comments.php */
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+
+/* CTA STARTBLOK */
+.ctastartblok{font-family: 'Roboto', sans-serif;}
+.banner{max-width: 1025px;margin: 0 auto;text-align: center;position:relative;}
+.titel {
+    font-size: 55px;
+    color: #fff;
+    text-shadow: 0px 2px #027A9D;
+    margin: 38px 0;
+    text-align: center;
+}
+/*.banner strong{color: #fff;}*/
+.bot_showdow{margin: 0 auto;}
+
+.start_now {
+    /*background: url('images/formbg.jpg') repeat-x top;*/
+    background-color: #FFF;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 9px 44px 25px 44px;
+
+    -moz-box-shadow:    3px 3px 6px 1px #333;
+    -webkit-box-shadow: 3px 3px 6px 1px #333;
+    box-shadow:         3px 3px 6px 1px #333;
+    border: 2px solid #FFF;
+}
+.banner .subtitel{
+  color: #143b4a;
+  font-size: 32px;
+  /*background:transparent url('images/form_heading_shad.png') no-repeat bottom;*/
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 38px;
+  font-weight: 300;
+}
+.banner .subsubtitel{
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*.banner .subtitel strong{color: #454a4d;}*/
+
+.ctastartblok.small .start_now{padding: 9px 10px 4px 10px;}
+.ctastartblok.small .banner .subtitel{font-size:26px;}
+
+.start_now ul li input[type="text"] {
+    background: url('images/postal_code.png') no-repeat;
+    width: 114px;
+    padding: 2px 10px 15px;
+    font-size: 22px;
+    color: #292929;
+    /*font-family: 'Maven Pro', sans-serif;*/
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    height: auto;
+}
+
+.start_now input[type="submit"], .redbtn, .bluebtn {
+    background: transparent url('images/btnbg.png') no-repeat scroll 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    border: 0 none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+
+    font-weight: bold;
+    text-transform: uppercase;
+
+    display: block;
+    clear: both;
+    margin: 0 auto !important;
+    text-align: center;
+
+    border-radius: 5px;
+
+    -moz-box-shadow:    3px 3px 6px 1px #333;
+    -webkit-box-shadow: 3px 3px 6px 1px #333;
+    box-shadow:         3px 3px 6px 1px #333;
+}
+
+.plan .redbtn,
+.plan .bluebtn,
+.start_now input[type="submit"],
+.ctastartblok .redbtn,
+.ctablok .redbtn{font-size:26px;width:220px;min-height:60px;}
+
+.detailblok  .redbtn{font-size:20px;height:50px;min-height:50px;line-height:30px;}
+
+a.redbtn, a.bluebtn{
+  margin:10px auto !important;
+  padding: 10px;
+  text-decoration: none !important;
+}
+
+.bluebtn{   background: transparent url('images/bluebtnbg.png') no-repeat scroll 50% 50%;}
+
+.start_now ul {
+    display: inline-block;
+    padding: 0;
+}
+.start_now .checkbox {
+    background: url('images/checkbox.png') no-repeat 0 0;
+    display: block;
+    width: 50px;
+    height: 31px;
+    margin: 0;
+}
+.start_now .checked {
+    background-position: 0 -37px;
+}
+.start_now ul li.checkboxli {
+    padding-top: 6px;
+    margin-right: 23px;
+}
+.start_now ul li {
+    list-style: none;
+    float: left;
+    font-size: 22px;
+    color: #004149;
+}
+.ctastartblok.small .start_now ul li {float:none;text-align: center;margin: 0 auto;line-height: 31px;height:40px;}
+.start_now ul li span, .start_now ul li label {
+    float: left;
+}
+.start_now ul li input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+}
+.start_now ul li span {
+    margin: 0 0 0 4px;
+    font-weight: bold;
+}
+
+.start_now .ctafooter{
+  color:#FFF;
+  text-align: left;
+  max-width: 600px;
+  margin:0 auto;
+}
+.ctastartblok.small .start_now .ctafooter .txt{border:none;padding:10px 0 0 0; font-size:16px;text-align:center;}
+.start_now .ctafooter .txt{border-top: 2px solid #86888B;padding:10px 0 0 0; font-size:16px;}
+.blueborder{border-top: 2px solid #D4E8FB;/*border-bottom: 2px solid #D4E8FB;*/}
+
+/* LEVERANCIERSFICHE */
+.leveranciersfiche{padding:20px 0;}
+.bluebg,
+.leveranciersfiche .overzicht{
+  padding:40px 0;
+  background-color: #F6FAFF;
+  border:1px solid #D4E8FB;
+  border-right:none;
+  border-left:none;
+}
+.padding{padding:40px 0;}
+
+.leveranciersfiche .overzicht h2{margin-bottom:30px;}
+
+.leveranciersfiche .details .detail-info strong{color:#439CEF;}
+
+.leveranciersfiche .detail{padding:20px 0;}
+.leveranciersfiche .details{padding:20px 0;border-bottom:1px solid #D4E9FD;}
+.leveranciersfiche .details:nth-child(even){background-color:#F6FAFF;}
+
+#content ul{
+  list-style-position: inside;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#content ul li {
+  padding-left: 10px;
+  text-indent: -.7em;
+}
+
+#content ul li::before   {
+  font-size: 20px;
+  content: "• ";
+  color: #439CEF;
+  vertical-align:middle;
+}
+
+ul.cs-client li::before,
+.ctastartblok ul li::before{content:"";display: none;}
+
+.chooser{float:right;}
+
+.supplier_logo{max-height:120px;margin:10px 0;}
+.featured .supplier_logo{height:140px;max-height:140px;margin:0;}
+
+.detailblok .supplier_logo{max-height:157px;margin:10px auto;}
+.plan-calculate{margin-top: 20px;}
+.nopaddingbottom{padding-bottom:0;}
+
+.green{color:#0B9847;}
+.blue{color:#439CEF;}
+
+.semibold{font-weight:600;}
+
+.center{text-align:center;margin:0 auto;display: block;}
+.capitalize{text-transform:capitalize;}
+
+.anchor {
+    display:block;
+    padding-top:60px;
+    margin-top:-60px;
+ }
+
+ .align-bottom{vertical-align: bottom!important;}
+
+.inline,
+.inline div.cs-iconbox{
+  display:inline;
+  margin-right: 20px;
+}
+.cs-icon{height:auto;}
+
+
+.mascot1 {
+    background: url(/wp-content/themes/route-child/images/moskot01.png) no-repeat;
+    width: 346px;
+    height: 346px;
+    position: absolute;
+    right: -285px;
+    top: -50px;
+}
+
+.ctablok .mascot1{right:-215px;}
+
+@media screen and (max-width: 1200px) {
+  .start_now .ctafooter .txt{border:none; text-align: center;}
+  .ctafooter .col-md-6{display:block;width:100%;float:none;clear:both;left:auto;right:auto;margin:10px 0;}
+
+  .removepadding .col-md-3,
+  .cs-iconbox-left .cs-iconbox-icon{padding:0;}
+}
+@media only screen and (max-width: 992px){
+  .inline div.cs-iconbox{display:inline-block;width: 50%;margin: 0;}
+  .mascot1 {right: -247px;width: 312px;background-size: 100%;}
+  .banner .subtitel{font-size:28px;}
+  .startblok .col-md-8{width:85%;}
+}
+@media screen and (max-width: 660px) {
+  .inline div.cs-iconbox{display:block;width:100%;}
+  .startblok .col-md-8{width:100%;}
+  .mascot1{display: none;}
+}
+@media screen and (max-width: 550px) {
+  .banner .titel {font-size: 30px;}
+  .banner .subtitel{font-size:20px;line-height:1.5em;overflow: hidden;margin: 0;}
+  .start_now ul li.postcode{float:none;clear:both;}
+  .start_now ul li.postcode input{float:none;margin:0 auto;}
+  .start_now input[type="submit"], .redbtn{width:100%;}
+}
+@media screen and (max-width: 490px) {
+  #content .start_now ul{text-align: center;}
+  #content .start_now ul li{/*display: block;width:100%;float:none;text-indent:0;*/font-size:14px;margin:0;}
+  .start_now .ctafooter{width: 100%;}
+  table{font-size:12px}
+  .hidemobile{display:none;}
+}

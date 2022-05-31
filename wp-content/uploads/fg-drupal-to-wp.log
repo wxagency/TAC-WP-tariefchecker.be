@@ -1,0 +1,119 @@
+=== START import 2017-08-14 12:53:45 ===
+Connected with success to the Drupal database
+Drupal data found:
+109 articles
+16 pages
+0 categories
+233 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains translations. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/internationalization/" target="_blank">Internationalization add-on</a> to import them.
+WordPress content removed
+Importing categories...
+0 categories imported
+Importing tags...
+229 tags imported
+Importing articles...
+[ERROR] Can't copy http://www.tariefchecker.be/tariefchecker/sites/default/files/belgische%20energieleveranciers%20gas%20en%20elektriciteit%20electrabel%20luminus%20eni%20essent%20lampiris%20eneco%20octaplus%20elegant%20belpower%20energie2030%20antargaz%20elexys%20220x220.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/belgische energieleveranciers gas en elektriciteit electrabel luminus eni essent lampiris eneco octaplus elegant belpower energie2030 antargaz elexys 220x220.png : Not Found
+[ERROR] Can't copy http://www.tariefchecker.be/tariefchecker/sites/default/files/belgische%20producenten%20elektriciteit%20electrabel%20rwe%20essent%20spe%20luminus%20220x220.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/belgische producenten elektriciteit electrabel rwe essent spe luminus 220x220.png : Not Found
+[ERROR] Can't copy http://www.tariefchecker.be/tariefchecker/sites/default/files/trading%20vloer%20energie%20belgische%20traders%20220x220_0.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/trading vloer energie belgische traders 220x220_0.png : Not Found
+[ERROR] Can't copy http://www.tariefchecker.be/tariefchecker/sites/default/files/belgische%20transportnetbeheerders%20gas%20en%20elektriciteit%20elia%20fluxys%20hoogspanning%20220x220.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/belgische transportnetbeheerders gas en elektriciteit elia fluxys hoogspanning 220x220.png : Not Found
+[ERROR] Can't copy http://www.tariefchecker.be/tariefchecker/sites/default/files/belgische%20werkmaatschappijen%20voor%20distributietnetbeheerders%20gas%20en%20elektriciteit%20laagspanning%20eandis%20infrax%20sibelga%20ores%20220x220.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/belgische werkmaatschappijen voor distributietnetbeheerders gas en elektriciteit laagspanning eandis infrax sibelga ores 220x220.png : Not Found
+[ERROR] Can't copy http://www.tariefchecker.be/tariefchecker/sites/default/files/belgische%20regulatoren%20energiemarkt%20gas%20elektriciteit%20brugel%20vreg%20creg%20cwape%20220x220.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/belgische regulatoren energiemarkt gas elektriciteit brugel vreg creg cwape 220x220.png : Not Found
+[ERROR] Can't copy http://deredactie.be/polopoly_fs/1.2094554!file/N_140919_infrax.xlsx to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/09/N_140919_infrax.xlsx : Not Found
+[ERROR] Can't copy http://deredactie.be/polopoly_fs/1.2094554!file/N_140919_infrax.xlsx to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/09/N_140919_infrax.xlsx : Not Found
+[ERROR] Can't copy http://www.tariefchecker.be/energie/tariefkaarten/2014/12-december/Elegant/particulieren/elektriciteit/elegant-elektriciteit-NL.pdf to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/11/elegant-elektriciteit-NL.pdf : Not Found
+[ERROR] Can't copy http://www.tariefchecker.be/energie/tariefkaarten/2014/12-december/Elegant/particulieren/elektriciteit/elegant-elektriciteit-NL.pdf to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/11/elegant-elektriciteit-NL.pdf : Not Found
+109 articles imported
+Importing pages...
+[ERROR] Can't copy http://183.182.84.84/tariefchecker/sites/default/files/under_construction.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/under_construction.png : Not Found
+[ERROR] Can't copy http://183.182.84.84/tariefchecker/sites/default/files/under_construction.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/under_construction.png : Not Found
+[ERROR] Can't copy http://183.182.84.84/tariefchecker/sites/default/files/under_construction.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/under_construction.png : Not Found
+[ERROR] Can't copy http://183.182.84.84/tariefchecker/sites/default/files/under_construction.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/under_construction.png : Not Found
+[ERROR] Can't copy http://www.tariefchecker.be/<?php%20echo%20$base_url;?>/sites/all/themes/me/images/404page.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/05/404page.png : Not Found
+[ERROR] Can't copy http://183.182.84.84/tariefchecker/sites/default/files/under_construction.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/08/under_construction.png : Not Found
+[ERROR] Can't copy http://183.182.84.84/tariefchecker/sites/default/files/under_construction.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/08/under_construction.png : Not Found
+[ERROR] Can't copy http://183.182.84.84/tariefchecker/sites/default/files/under_construction.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/08/under_construction.png : Not Found
+[ERROR] Can't copy http://183.182.84.84/tariefchecker/sites/default/files/under_construction.png to /home/tariefchec/domains/tariefchecker.uwdemosite.be/public_html/wp-content/uploads/2014/08/under_construction.png : Not Found
+16 pages imported
+208 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2017-08-14 12:54:41 ===
+
+=== START test_database 2018-01-24 13:58:28 ===
+Connected with success to the Drupal database
+Drupal data found:
+109 articles
+16 pages
+0 categories
+233 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains translations. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/internationalization/" target="_blank">Internationalization add-on</a> to import them.
+=== END test_database 2018-01-24 13:58:28 ===
+
+=== START modify_links 2018-01-24 14:34:06 ===
+4 internal links modified
+=== END modify_links 2018-01-24 14:34:08 ===
+
+=== START test_database 2018-04-05 15:35:17 ===
+Connected with success to the Drupal database
+Drupal data found:
+109 articles
+16 pages
+0 categories
+233 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains translations. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/internationalization/" target="_blank">Internationalization add-on</a> to import them.
+=== END test_database 2018-04-05 15:35:18 ===
+
+=== START test_database 2018-06-01 18:38:13 ===
+Connected with success to the Drupal database
+Drupal data found:
+109 articles
+16 pages
+0 categories
+233 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains translations. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/internationalization/" target="_blank">Internationalization add-on</a> to import them.
+=== END test_database 2018-06-01 18:38:13 ===
+
+=== START test_database 2018-06-30 11:00:12 ===
+Connected with success to the Drupal database
+Drupal data found:
+146 articles
+18 pages
+0 categories
+306 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains translations. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/internationalization/" target="_blank">Internationalization add-on</a> to import them.
+=== END test_database 2018-06-30 11:00:12 ===
+
+=== START modify_links 2018-06-30 11:43:35 ===
+0 internal links modified
+=== END modify_links 2018-06-30 11:43:35 ===
+

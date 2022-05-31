@@ -1,0 +1,180 @@
+# Translation of Plugins - Meta Tag Manager - Development (trunk) in Dutch
+# This file is distributed under the same license as the Plugins - Meta Tag Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-26 20:20:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Meta Tag Manager - Development (trunk)\n"
+
+#: admin/mtm-tag-admin.php:43
+msgid "Other possible values"
+msgstr "Andere mogelijke waardes"
+
+#: admin/mtm-builder.php:221
+msgid "Front Page"
+msgstr "Startpagina"
+
+#: admin/mtm-admin-settings.php:29 admin/settings/open-graph.php:16
+#: admin/settings/open-graph.php:65 admin/settings/verify-sites.php:7
+msgid "Custom Meta Tags"
+msgstr "Aangepaste metatags"
+
+#: admin/mtm-admin-settings.php:30
+msgid "General Options"
+msgstr "Algemene opties"
+
+#: admin/settings/general.php:7
+msgid "Post Type Support"
+msgstr "Ondersteuning voor berichttypen"
+
+#: admin/settings/custom-meta-tags.php:5
+msgid "Use the meta tag builder to create meta tags which will be used on your site. You can choose what kind of meta tag to display, as well as where to display them such as on all your pages, just the home page or specific post types and taxonomies."
+msgstr "Gebruik de metatag-builder om metatags te maken die op je site worden gebruikt. Je kunt kiezen wat voor soort metatag je wilt weergeven, en waar je ze wilt weergeven, zoals op al je pagina's, alleen de startpagina of specifieke berichttypen en taxonomieën."
+
+#: admin/settings/custom-meta-tags.php:6
+msgid "You can also enter a reference name at the top of each field card (something to help you remember the meta tag) and then enter the values below it that you want the meta tag to hold."
+msgstr "Je kunt ook een referentienaam invoeren bovenaan elke veldkaart (iets om je te helpen de metatag te onthouden) en vervolgens de waarden eronder invoeren die je wilt dat de metatag bevat."
+
+#: admin/settings/custom-meta-tags.php:8
+msgid "For adding meta tags to specific post types, please click on the 'General Options' tab above."
+msgstr "Klik op het tab 'Algemene opties' hierboven om metatags aan specifieke berichttypen toe te voegen."
+
+#: admin/settings/sidebar.php:6 admin/settings/sidebar.php:29
+msgid "Toggle panel: %s"
+msgstr "Toggle paneel: %s"
+
+#: admin/settings/sidebar.php:6 admin/settings/sidebar.php:10
+msgid "About This Plugin"
+msgstr "Over deze plugin"
+
+#: admin/settings/sidebar.php:14
+msgid "This plugin was developed by %s."
+msgstr "Deze plugin is ontwikkeld door %s."
+
+#: admin/settings/sidebar.php:18
+msgid "Please leave us a %s review on %s to show your support and help us keep making this plugin better!"
+msgstr "Laat een %s beoordeling achter op %s om je steun te betuigen en ons te helpen deze plugin te blijven verbeteren!"
+
+#: admin/settings/sidebar.php:29 admin/settings/sidebar.php:33
+msgid "Need Help?"
+msgstr "Hulp nodig?"
+
+#: admin/settings/sidebar.php:37
+msgid "Please visit our %s if you have any questions."
+msgstr "Bezoek onze %s als je vragen hebt."
+
+#: admin/mtm-builder.php:36
+msgid "No tags added yet, click here or on the button below to add one!"
+msgstr "Nog geen tags toegevoegd, klik hier of op de onderstaande knop om er een toe te voegen!"
+
+#: admin/mtm-builder.php:46 admin/mtm-builder.php:132
+msgid "choose a value or type in a custom one..."
+msgstr "kies een waarde of typ een aangepaste waarde..."
+
+#: admin/mtm-builder.php:56
+msgid "Add Meta Tag"
+msgstr "Metatag toevoegen"
+
+#: admin/mtm-builder.php:74
+msgid "Custom Meta Tag"
+msgstr "Aangepaste metatag"
+
+#: admin/mtm-builder.php:75
+msgid "Custom Meta Tag Reference"
+msgstr "Aangepaste metatag-referentie"
+
+#: admin/mtm-builder.php:78
+msgid "optional reference name"
+msgstr "optionele referentienaam"
+
+#: admin/mtm-builder.php:108
+msgid "Remove Meta Tag"
+msgstr "Metatag verwijderen"
+
+#: admin/mtm-builder.php:118
+msgid "choose a tag type"
+msgstr "kies een tag type"
+
+#: admin/mtm-builder.php:116
+msgid "Tag Type"
+msgstr "Tag type"
+
+#: admin/mtm-builder.php:128
+msgid "%s Value"
+msgstr "%s Waarde"
+
+#: admin/mtm-builder.php:142
+msgid "%s Attribute"
+msgstr "%s attribuut"
+
+#: admin/mtm-builder.php:143
+msgid "add content corresponding to the chosen tag type"
+msgstr "inhoud toevoegen die overeenkomt met het gekozen tag type"
+
+#: admin/mtm-builder.php:149
+msgid "Where to display this tag"
+msgstr "Waar deze tag moet worden weergegeven"
+
+#: admin/mtm-builder.php:162
+msgid "Close Meta Tag Options"
+msgstr "Sluit de metatag-opties"
+
+#: admin/mtm-builder.php:220
+msgid "All Pages"
+msgstr "Alle pagina's"
+
+#: admin/mtm-builder.php:224
+msgid "Post Types"
+msgstr "Berichttypen"
+
+#: admin/mtm-builder.php:229
+msgid "Taxonomies"
+msgstr "Taxonomieën"
+
+#: admin/mtm-tag-admin.php:42
+msgid "Common values"
+msgstr "Gemeenschappelijke waarden"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/meta-tag-manager/"
+msgstr "https://wordpress.org/plugins/meta-tag-manager/"
+
+#. Author of the plugin
+msgid "Marcus Sykes"
+msgstr "Marcus Sykes"
+
+#: admin/settings/general.php:8
+msgid "Enable the meta tag builder on the edit pages of your selected %1$s below. This will allow you to create specific %1$s for specific %2$s on your site. Leave blank for all %1$s."
+msgstr "Schakel de metatag-builder in op de bewerkpagina's van je geselecteerde %1$s hieronder. Hierdoor kun je specifieke %1$s maken voor specifieke %2$s op je site. Laat blanco voor alle %1$s."
+
+#: admin/settings/sidebar.php:38
+msgid "Support Forum"
+msgstr "Ondersteuningsforum"
+
+#: admin/settings/open-graph.php:45 admin/settings/schema.php:154
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin/mtm-admin-settings.php:8
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: admin/mtm-builder.php:77
+msgid "Reference Name"
+msgstr "Referentie naam"
+
+#: admin/mtm-admin-settings.php:20 admin/settings/open-graph.php:83
+#: admin/settings/schema.php:336
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#. Plugin Name of the plugin
+#: admin/mtm-admin-settings.php:25 meta-tag-manager-admin.php:86
+#: meta-tag-manager-admin.php:131
+msgid "Meta Tag Manager"
+msgstr "Meta Tag Manager"

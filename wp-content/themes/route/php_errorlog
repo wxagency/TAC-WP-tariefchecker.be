@@ -1,0 +1,4 @@
+[26-Nov-2019 03:45:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/tariefch/public_html/wp-content/themes/route/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tariefch/public_html/wp-content/themes/route/index.php on line 10

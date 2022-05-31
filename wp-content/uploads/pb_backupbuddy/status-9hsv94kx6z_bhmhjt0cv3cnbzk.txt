@@ -1,0 +1,392 @@
+{"event":"message","time":1606478396,"u":"57","run":"2.38","mem":"28.64","data":"Pong! Server replied."}
+{"event":"details","time":1606478396,"u":"65","run":"1.28","mem":"22.20","data":"--- New PHP process."}
+{"event":"details","time":1606478396,"u":"65","run":"1.28","mem":"22.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478396,"u":"65","run":"1.28","mem":"22.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478396,"u":"65","run":"1.28","mem":"22.20","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606478396,"u":"65","run":"1.28","mem":"22.20","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606478396,"u":"65","run":"1.28","mem":"22.20","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606478396,"u":"65","run":"1.28","mem":"22.20","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478396,"u":"65","run":"1.29","mem":"22.31","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478396,"u":"65","run":"1.29","mem":"22.31","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0dc2ca08478.97007652."}
+{"event":"details","time":1606478396,"u":"65","run":"1.29","mem":"22.35","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478396,"u":"66","run":"1.29","mem":"22.35","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478396,"u":"66","run":"1.29","mem":"22.35","data":"cronPass"}
+{"event":"warning","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0dc2ca08478.97007652`. My lock ID: `5fc0dc2ca08478.97007652`."}
+{"event":"warning","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606478400,"u":"66","run":"5.29","mem":"22.36","data":"Scheduling next step to run at `1606474860` (localized time: Nov 27, 2020 12:01:00 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478400,"u":"66","run":"5.30","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606478400,"u":"66","run":"5.30","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606478400,"u":"66","run":"5.30","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc0ODYwLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478400,"u":"66","run":"5.30","mem":"22.34","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478400,"u":"66","run":"5.30","mem":"22.34","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.02","data":"--- New PHP process."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.08","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.08","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.08","data":"Dur\u00e9e d'ex\u00e9cution de PHP rapport\u00e9e - Configur\u00e9e:  360; Originale: 360; Actuelle: 360"}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.08","data":"Une tentative de modifier la taille de la m\u00e9moire PHP d\u00e9finie en tant que WP_MAX_MEMORY_LIMIT (256M) ou une valeur sup\u00e9rieure a \u00e9t\u00e9 faite"}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.08","data":"Limite de la m\u00e9moire PHP - Configur\u00e9e:  128M; Originale: 256M; Actuelle: 256M"}
+{"event":"message","time":1606478461,"u":"97","run":"0.36","mem":"23.08","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.13","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.13","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0dc6dee1ed8.36657811."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.17","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.17","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478461,"u":"97","run":"0.36","mem":"23.17","data":"cronPass"}
+{"event":"message","time":1606478461,"u":"97","run":"0.36","mem":"23.18","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"details","time":1606478461,"u":"97","run":"0.36","mem":"23.21","data":"Fileoptions `9hsv94kx6z.txt` saved. 15468 bytes written."}
+{"event":"haltScript","time":1606478461,"u":"97","run":"0.36","mem":"23.18","data":""}
+{"event":"warning","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0dc6dee1ed8.36657811`. My lock ID: `5fc0dc6dee1ed8.36657811`."}
+{"event":"warning","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"Pinging mysqli."}
+{"event":"details","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"Statut de la connexion au serveur de base de donn\u00e9es v\u00e9rifi\u00e9."}
+{"event":"details","time":1606478465,"u":"97","run":"4.36","mem":"23.18","data":"Scheduling next step to run at `1606474925` (localized time: Nov 27, 2020 12:02:05 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478465,"u":"98","run":"4.37","mem":"23.18","data":"Next step scheduled."}
+{"event":"startAction","time":1606478465,"u":"98","run":"4.37","mem":"23.18","data":"cronPass"}
+{"event":"cronParams","time":1606478465,"u":"98","run":"4.37","mem":"23.18","data":"eyJ0aW1lIjoxNjA2NDc0OTI1LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478465,"u":"98","run":"4.37","mem":"23.17","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478465,"u":"98","run":"4.37","mem":"23.17","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.20","data":"--- New PHP process."}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.20","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.20","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.20","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606478532,"u":"08","run":"0.32","mem":"22.20","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.31","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.31","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0dcb4148e35.13029396."}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.35","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478532,"u":"08","run":"0.32","mem":"22.35","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478532,"u":"08","run":"0.32","mem":"22.35","data":"cronPass"}
+{"event":"message","time":1606478532,"u":"08","run":"0.32","mem":"22.35","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606478532,"u":"08","run":"0.32","mem":"22.35","data":""}
+{"event":"warning","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0dcb4148e35.13029396`. My lock ID: `5fc0dcb4148e35.13029396`."}
+{"event":"warning","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Pinging mysqli."}
+{"event":"details","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Database Server connection status verified."}
+{"event":"details","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Scheduling next step to run at `1606474996` (localized time: Nov 27, 2020 12:03:16 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"Next step scheduled."}
+{"event":"startAction","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"cronPass"}
+{"event":"cronParams","time":1606478536,"u":"08","run":"4.32","mem":"22.35","data":"eyJ0aW1lIjoxNjA2NDc0OTk2LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478536,"u":"09","run":"4.33","mem":"22.34","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478536,"u":"09","run":"4.33","mem":"22.34","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478600,"u":"29","run":"3.27","mem":"22.20","data":"--- New PHP process."}
+{"event":"details","time":1606478600,"u":"29","run":"3.28","mem":"22.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478600,"u":"29","run":"3.28","mem":"22.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478600,"u":"29","run":"3.28","mem":"22.20","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606478600,"u":"29","run":"3.28","mem":"22.20","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606478600,"u":"29","run":"3.28","mem":"22.20","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606478600,"u":"29","run":"3.28","mem":"22.20","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478600,"u":"30","run":"3.29","mem":"22.31","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478600,"u":"30","run":"3.29","mem":"22.31","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0dcf84b68e3.28348328."}
+{"event":"details","time":1606478600,"u":"30","run":"3.29","mem":"22.35","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478600,"u":"31","run":"3.30","mem":"22.35","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478600,"u":"31","run":"3.30","mem":"22.35","data":"cronPass"}
+{"event":"message","time":1606478600,"u":"33","run":"3.31","mem":"22.36","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606478600,"u":"33","run":"3.31","mem":"22.36","data":""}
+{"event":"warning","time":1606478604,"u":"33","run":"7.31","mem":"22.36","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0dcf84b68e3.28348328`. My lock ID: `5fc0dcf84b68e3.28348328`."}
+{"event":"warning","time":1606478604,"u":"33","run":"7.31","mem":"22.36","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478604,"u":"33","run":"7.31","mem":"22.36","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478604,"u":"33","run":"7.31","mem":"22.36","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478604,"u":"33","run":"7.31","mem":"22.36","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478604,"u":"33","run":"7.32","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478604,"u":"33","run":"7.32","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606478604,"u":"33","run":"7.32","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606478604,"u":"33","run":"7.32","mem":"22.36","data":"Scheduling next step to run at `1606475064` (localized time: Nov 27, 2020 12:04:24 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478604,"u":"33","run":"7.32","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606478604,"u":"33","run":"7.32","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606478604,"u":"33","run":"7.32","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc1MDY0LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478604,"u":"33","run":"7.32","mem":"22.34","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478604,"u":"33","run":"7.32","mem":"22.34","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478619,"u":"01","run":"2.72","mem":"22.20","data":"--- New PHP process."}
+{"event":"details","time":1606478619,"u":"01","run":"2.72","mem":"22.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478619,"u":"01","run":"2.72","mem":"22.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478619,"u":"01","run":"2.72","mem":"22.20","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606478619,"u":"01","run":"2.72","mem":"22.21","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606478619,"u":"01","run":"2.72","mem":"22.21","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606478619,"u":"01","run":"2.72","mem":"22.21","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478619,"u":"02","run":"2.73","mem":"22.32","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478619,"u":"02","run":"2.74","mem":"22.32","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0dd0b0739e1.61727557."}
+{"event":"details","time":1606478619,"u":"03","run":"2.74","mem":"22.36","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478619,"u":"03","run":"2.74","mem":"22.36","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478619,"u":"03","run":"2.74","mem":"22.36","data":"cronPass"}
+{"event":"message","time":1606478619,"u":"03","run":"2.74","mem":"22.36","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606478619,"u":"03","run":"2.74","mem":"22.36","data":""}
+{"event":"warning","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0dd0b0739e1.61727557`. My lock ID: `5fc0dd0b0739e1.61727557`."}
+{"event":"warning","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Scheduling next step to run at `1606475083` (localized time: Nov 27, 2020 12:04:43 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606478623,"u":"03","run":"6.74","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc1MDgzLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478623,"u":"03","run":"6.74","mem":"22.35","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478623,"u":"03","run":"6.74","mem":"22.35","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.33","data":"--- New PHP process."}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.33","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.33","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.33","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.33","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.33","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606478691,"u":"80","run":"2.05","mem":"22.33","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.44","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.45","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0dd53c56273.75100704."}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.49","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478691,"u":"80","run":"2.05","mem":"22.49","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478691,"u":"80","run":"2.05","mem":"22.49","data":"cronPass"}
+{"event":"message","time":1606478691,"u":"81","run":"2.05","mem":"22.49","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606478691,"u":"81","run":"2.05","mem":"22.49","data":""}
+{"event":"warning","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0dd53c56273.75100704`. My lock ID: `5fc0dd53c56273.75100704`."}
+{"event":"warning","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Pinging mysqli."}
+{"event":"details","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Database Server connection status verified."}
+{"event":"details","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Scheduling next step to run at `1606475155` (localized time: Nov 27, 2020 12:05:55 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"Next step scheduled."}
+{"event":"startAction","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"cronPass"}
+{"event":"cronParams","time":1606478695,"u":"81","run":"6.05","mem":"22.49","data":"eyJ0aW1lIjoxNjA2NDc1MTU1LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478695,"u":"81","run":"6.05","mem":"22.47","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478695,"u":"81","run":"6.05","mem":"22.47","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478755,"u":"65","run":"0.36","mem":"22.20","data":"--- New PHP process."}
+{"event":"details","time":1606478755,"u":"65","run":"0.36","mem":"22.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478755,"u":"65","run":"0.36","mem":"22.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478755,"u":"65","run":"0.36","mem":"22.20","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606478755,"u":"65","run":"0.36","mem":"22.20","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606478755,"u":"65","run":"0.36","mem":"22.20","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606478755,"u":"65","run":"0.36","mem":"22.20","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478755,"u":"65","run":"0.37","mem":"22.31","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478755,"u":"65","run":"0.37","mem":"22.31","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0dd93a0c8d3.44667610."}
+{"event":"details","time":1606478755,"u":"65","run":"0.37","mem":"22.35","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478755,"u":"65","run":"0.37","mem":"22.35","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478755,"u":"65","run":"0.37","mem":"22.35","data":"cronPass"}
+{"event":"message","time":1606478755,"u":"66","run":"0.37","mem":"22.35","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606478755,"u":"66","run":"0.37","mem":"22.36","data":""}
+{"event":"warning","time":1606478759,"u":"66","run":"4.37","mem":"22.35","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0dd93a0c8d3.44667610`. My lock ID: `5fc0dd93a0c8d3.44667610`."}
+{"event":"warning","time":1606478759,"u":"66","run":"4.37","mem":"22.35","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478759,"u":"66","run":"4.37","mem":"22.35","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478759,"u":"66","run":"4.37","mem":"22.35","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478759,"u":"66","run":"4.37","mem":"22.35","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478759,"u":"66","run":"4.37","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478759,"u":"66","run":"4.37","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606478759,"u":"66","run":"4.37","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606478759,"u":"66","run":"4.37","mem":"22.36","data":"Scheduling next step to run at `1606475219` (localized time: Nov 27, 2020 12:06:59 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478759,"u":"66","run":"4.37","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606478759,"u":"66","run":"4.37","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606478759,"u":"66","run":"4.37","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc1MjE5LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478759,"u":"66","run":"4.37","mem":"22.34","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478759,"u":"66","run":"4.37","mem":"22.34","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478827,"u":"13","run":"0.29","mem":"23.02","data":"--- New PHP process."}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.08","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.08","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.08","data":"Dur\u00e9e d'ex\u00e9cution de PHP rapport\u00e9e - Configur\u00e9e:  360; Originale: 360; Actuelle: 360"}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.08","data":"Une tentative de modifier la taille de la m\u00e9moire PHP d\u00e9finie en tant que WP_MAX_MEMORY_LIMIT (256M) ou une valeur sup\u00e9rieure a \u00e9t\u00e9 faite"}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.08","data":"Limite de la m\u00e9moire PHP - Configur\u00e9e:  128M; Originale: 256M; Actuelle: 256M"}
+{"event":"message","time":1606478827,"u":"14","run":"0.29","mem":"23.08","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.13","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.13","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0dddb22fb21.51773508."}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.17","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478827,"u":"14","run":"0.29","mem":"23.17","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478827,"u":"14","run":"0.29","mem":"23.17","data":"cronPass"}
+{"event":"message","time":1606478827,"u":"14","run":"0.29","mem":"23.18","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606478827,"u":"14","run":"0.29","mem":"23.18","data":""}
+{"event":"warning","time":1606478831,"u":"14","run":"4.29","mem":"23.18","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0dddb22fb21.51773508`. My lock ID: `5fc0dddb22fb21.51773508`."}
+{"event":"warning","time":1606478831,"u":"14","run":"4.29","mem":"23.18","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478831,"u":"14","run":"4.29","mem":"23.18","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478831,"u":"14","run":"4.30","mem":"23.18","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478831,"u":"14","run":"4.30","mem":"23.18","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478831,"u":"14","run":"4.30","mem":"23.18","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478831,"u":"14","run":"4.30","mem":"23.18","data":"Pinging mysqli."}
+{"event":"details","time":1606478831,"u":"14","run":"4.30","mem":"23.18","data":"Statut de la connexion au serveur de base de donn\u00e9es v\u00e9rifi\u00e9."}
+{"event":"details","time":1606478831,"u":"14","run":"4.30","mem":"23.18","data":"Scheduling next step to run at `1606475291` (localized time: Nov 27, 2020 12:08:11 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478831,"u":"15","run":"4.30","mem":"23.18","data":"Next step scheduled."}
+{"event":"startAction","time":1606478831,"u":"15","run":"4.30","mem":"23.18","data":"cronPass"}
+{"event":"cronParams","time":1606478831,"u":"15","run":"4.30","mem":"23.18","data":"eyJ0aW1lIjoxNjA2NDc1MjkxLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478831,"u":"15","run":"4.30","mem":"23.16","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478831,"u":"15","run":"4.30","mem":"23.16","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478898,"u":"03","run":"0.31","mem":"22.20","data":"--- New PHP process."}
+{"event":"details","time":1606478898,"u":"03","run":"0.31","mem":"22.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478898,"u":"03","run":"0.31","mem":"22.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478898,"u":"03","run":"0.31","mem":"22.20","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606478898,"u":"03","run":"0.31","mem":"22.20","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606478898,"u":"03","run":"0.31","mem":"22.20","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606478898,"u":"03","run":"0.31","mem":"22.20","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478898,"u":"04","run":"0.32","mem":"22.31","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478898,"u":"04","run":"0.32","mem":"22.31","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0de220a1430.08776180."}
+{"event":"details","time":1606478898,"u":"04","run":"0.32","mem":"22.35","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478898,"u":"04","run":"0.32","mem":"22.35","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478898,"u":"04","run":"0.32","mem":"22.35","data":"cronPass"}
+{"event":"message","time":1606478898,"u":"04","run":"0.32","mem":"22.36","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606478898,"u":"04","run":"0.32","mem":"22.36","data":""}
+{"event":"warning","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0de220a1430.08776180`. My lock ID: `5fc0de220a1430.08776180`."}
+{"event":"warning","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606478902,"u":"04","run":"4.32","mem":"22.36","data":"Scheduling next step to run at `1606475362` (localized time: Nov 27, 2020 12:09:22 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478902,"u":"05","run":"4.32","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606478902,"u":"05","run":"4.32","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606478902,"u":"05","run":"4.32","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc1MzYyLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478902,"u":"05","run":"4.33","mem":"22.34","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478902,"u":"05","run":"4.33","mem":"22.34","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.20","data":"--- New PHP process."}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.20","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.20","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.20","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606478972,"u":"44","run":"0.32","mem":"22.20","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.31","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.31","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0de6c6c56f8.29022615."}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.35","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606478972,"u":"44","run":"0.32","mem":"22.35","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606478972,"u":"44","run":"0.32","mem":"22.35","data":"cronPass"}
+{"event":"message","time":1606478972,"u":"44","run":"0.32","mem":"22.36","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606478972,"u":"44","run":"0.32","mem":"22.36","data":""}
+{"event":"warning","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0de6c6c56f8.29022615`. My lock ID: `5fc0de6c6c56f8.29022615`."}
+{"event":"warning","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606478976,"u":"44","run":"4.33","mem":"22.36","data":"Scheduling next step to run at `1606475436` (localized time: Nov 27, 2020 12:10:36 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606478976,"u":"45","run":"4.33","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606478976,"u":"45","run":"4.33","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606478976,"u":"45","run":"4.33","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc1NDM2LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606478976,"u":"45","run":"4.33","mem":"22.34","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606478976,"u":"45","run":"4.33","mem":"22.34","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606479041,"u":"81","run":"0.35","mem":"22.21","data":"--- New PHP process."}
+{"event":"details","time":1606479041,"u":"81","run":"0.35","mem":"22.21","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606479041,"u":"81","run":"0.35","mem":"22.21","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606479041,"u":"81","run":"0.35","mem":"22.21","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606479041,"u":"81","run":"0.35","mem":"22.21","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606479041,"u":"81","run":"0.35","mem":"22.21","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606479041,"u":"81","run":"0.35","mem":"22.21","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606479041,"u":"82","run":"0.35","mem":"22.32","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606479041,"u":"82","run":"0.35","mem":"22.32","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0deb1c86d19.50532391."}
+{"event":"details","time":1606479041,"u":"82","run":"0.35","mem":"22.36","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606479041,"u":"82","run":"0.35","mem":"22.36","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606479041,"u":"82","run":"0.35","mem":"22.36","data":"cronPass"}
+{"event":"message","time":1606479041,"u":"82","run":"0.36","mem":"22.36","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606479041,"u":"82","run":"0.36","mem":"22.36","data":""}
+{"event":"warning","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0deb1c86d19.50532391`. My lock ID: `5fc0deb1c86d19.50532391`."}
+{"event":"warning","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Scheduling next step to run at `1606475505` (localized time: Nov 27, 2020 12:11:45 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606479045,"u":"82","run":"4.36","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc1NTA1LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606479045,"u":"82","run":"4.36","mem":"22.35","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606479045,"u":"82","run":"4.36","mem":"22.35","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.21","data":"--- New PHP process."}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.21","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.21","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.21","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.21","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.21","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606479105,"u":"93","run":"0.31","mem":"22.21","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.32","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.32","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0def1e4c667.91083195."}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.36","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606479105,"u":"93","run":"0.31","mem":"22.36","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606479105,"u":"93","run":"0.31","mem":"22.36","data":"cronPass"}
+{"event":"message","time":1606479105,"u":"93","run":"0.31","mem":"22.36","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606479105,"u":"93","run":"0.31","mem":"22.36","data":""}
+{"event":"warning","time":1606479109,"u":"93","run":"4.32","mem":"22.36","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0def1e4c667.91083195`. My lock ID: `5fc0def1e4c667.91083195`."}
+{"event":"warning","time":1606479109,"u":"93","run":"4.32","mem":"22.36","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606479109,"u":"93","run":"4.32","mem":"22.36","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606479109,"u":"93","run":"4.32","mem":"22.36","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606479109,"u":"93","run":"4.32","mem":"22.36","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606479109,"u":"93","run":"4.32","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606479109,"u":"93","run":"4.32","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606479109,"u":"93","run":"4.32","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606479109,"u":"94","run":"4.32","mem":"22.36","data":"Scheduling next step to run at `1606475569` (localized time: Nov 27, 2020 12:12:49 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606479109,"u":"94","run":"4.32","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606479109,"u":"94","run":"4.32","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606479109,"u":"94","run":"4.32","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc1NTY5LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606479109,"u":"94","run":"4.32","mem":"22.35","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606479109,"u":"94","run":"4.32","mem":"22.35","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.20","data":"--- New PHP process."}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.20","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.20","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.20","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606479170,"u":"33","run":"0.61","mem":"22.20","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.31","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.31","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0df32517ad0.17483414."}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.35","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606479170,"u":"33","run":"0.61","mem":"22.35","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606479170,"u":"33","run":"0.61","mem":"22.35","data":"cronPass"}
+{"event":"message","time":1606479170,"u":"33","run":"0.61","mem":"22.35","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606479170,"u":"33","run":"0.61","mem":"22.36","data":""}
+{"event":"warning","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0df32517ad0.17483414`. My lock ID: `5fc0df32517ad0.17483414`."}
+{"event":"warning","time":1606479174,"u":"33","run":"4.61","mem":"22.35","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606479174,"u":"33","run":"4.61","mem":"22.35","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606479174,"u":"33","run":"4.61","mem":"22.35","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"Pinging mysqli."}
+{"event":"details","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"Database Server connection status verified."}
+{"event":"details","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"Scheduling next step to run at `1606475634` (localized time: Nov 27, 2020 12:13:54 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"Next step scheduled."}
+{"event":"startAction","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"cronPass"}
+{"event":"cronParams","time":1606479174,"u":"33","run":"4.61","mem":"22.36","data":"eyJ0aW1lIjoxNjA2NDc1NjM0LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606479174,"u":"34","run":"4.61","mem":"22.34","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606479174,"u":"34","run":"4.61","mem":"22.34","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.33","data":"--- New PHP process."}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.33","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.33","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.33","data":"Reported PHP execution time - Configured: 360; Original: 360; Current: 360"}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.33","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.33","data":"Reported PHP memory limits - Configured: 128M; Original: 256M; Current: 256M"}
+{"event":"message","time":1606479236,"u":"37","run":"2.04","mem":"22.33","data":"Running process for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.44","data":"Loading fileoptions data instance #39 for serial `9hsv94kx6z`..."}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.44","data":"Created fileoptions lock file `9hsv94kx6z.txt.lock` with ID: 5fc0df745c3c68.78673654."}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.48","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1606479236,"u":"37","run":"2.04","mem":"22.48","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1606479236,"u":"37","run":"2.04","mem":"22.48","data":"cronPass"}
+{"event":"message","time":1606479236,"u":"37","run":"2.04","mem":"22.48","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"haltScript","time":1606479236,"u":"37","run":"2.04","mem":"22.48","data":""}
+{"event":"warning","time":1606479240,"u":"38","run":"6.04","mem":"22.48","data":"Warning #54555. Unable to read fileoptions file `\/var\/www\/html\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/9hsv94kx6z.txt` as it is currently locked. Lock file ID: `5fc0df745c3c68.78673654`. My lock ID: `5fc0df745c3c68.78673654`."}
+{"event":"warning","time":1606479240,"u":"38","run":"6.04","mem":"22.48","data":"Unable to update out of order step attempt count due to file lock. It may be being written to by the other step at this moment."}
+{"event":"warning","time":1606479240,"u":"38","run":"6.04","mem":"22.48","data":"A scheduled step attempted to run before the previous step completed. Waiting `60` seconds before continuing for it to catch up. Attempt number `1`."}
+{"event":"warnings","time":1606479240,"u":"38","run":"6.04","mem":"22.48","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1606479240,"u":"38","run":"6.04","mem":"22.48","data":"Scheduling Cron for `9hsv94kx6z`."}
+{"event":"details","time":1606479240,"u":"38","run":"6.04","mem":"22.49","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1606479240,"u":"38","run":"6.04","mem":"22.49","data":"Pinging mysqli."}
+{"event":"details","time":1606479240,"u":"38","run":"6.04","mem":"22.49","data":"Database Server connection status verified."}
+{"event":"details","time":1606479240,"u":"38","run":"6.04","mem":"22.49","data":"Scheduling next step to run at `1606475700` (localized time: Nov 27, 2020 12:15:00 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `9hsv94kx6z`."}
+{"event":"details","time":1606479240,"u":"38","run":"6.04","mem":"22.48","data":"Next step scheduled."}
+{"event":"startAction","time":1606479240,"u":"38","run":"6.04","mem":"22.48","data":"cronPass"}
+{"event":"cronParams","time":1606479240,"u":"38","run":"6.04","mem":"22.48","data":"eyJ0aW1lIjoxNjA2NDc1NzAwLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjloc3Y5NGt4NnoiXX0="}
+{"event":"details","time":1606479240,"u":"38","run":"6.04","mem":"22.47","data":"Not calling spawn_cron()."}
+{"event":"details","time":1606479240,"u":"38","run":"6.04","mem":"22.47","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}

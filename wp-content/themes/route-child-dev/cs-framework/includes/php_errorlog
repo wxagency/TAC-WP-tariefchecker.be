@@ -1,0 +1,8 @@
+[18-Jan-2019 06:09:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/tariefch/public_html/dev/wp-content/themes/route-child/cs-framework/includes/goedkoopste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tariefch/public_html/dev/wp-content/themes/route-child/cs-framework/includes/goedkoopste.php on line 3
+[18-Jan-2019 06:10:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/tariefch/public_html/dev/wp-content/themes/route-child/cs-framework/includes/goedkoopste.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tariefch/public_html/dev/wp-content/themes/route-child/cs-framework/includes/goedkoopste.php on line 3
